@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>-b Basic</title>
+        <style>
+                input {
+                    background-color: rgb(0, 140, 200);
+                    border: none;
+                    color: white;
+                    padding: none;
+                    text-align: center;
+                    display: inline-block;
+                    font-size: 16px;
+                    height: 30px;
+                    width: 60px;
+                    -webkit-transition-duration: 0.3s;
+                    transition-duration: 0.3;
+                }
+                input:hover {
+                    background-color: rgb(0, 170, 250);
+                    color: white;
+                }
+        </style>
+    </head>
+        <body>
+            <h1 style="position: absolute; left: 50%; margin-left:-125px; font-family: Verdana, Geneva, Tahoma, sans-serif">-b Calculator</h1>
+            <div style="position: relative">
+                <div id="addButtons" style="position: absolute; left: 50%; margin-left: -100px; top:85px">
+                        <div id="tenButtonsAdd">
+                                <input type="button" onClick="changeValue(a, 10)" value=" + 10 ">
+                                <input type="button" onClick="changeValue(b, 10)" value=" + 10 ">
+                                <input type="button" onClick="changeValue(c, 10)" value=" + 10 ">
+                        </div>
+                        </br>
+                        <div id="zeroZeroOneButtonsAdd">
+                                <input type="button" onClick="changeValue(a, 0.01)" value=" + 0.01 ">
+                                <input type="button" onClick="changeValue(b, 0.01)" value=" + 0.01 ">
+                                <input type="button" onClick="changeValue(c, 0.01)" value=" + 0.01 ">
+                        </div>
+                        </br>
+                        <div id="zeroOneButtonsAdd">
+                                <input type="button" onClick="changeValue(a, 0.1)" value=" + 0.1 ">
+                                <input type="button" onClick="changeValue(b, 0.1)" value=" + 0.1 ">
+                                <input type="button" onClick="changeValue(c, 0.1)" value=" + 0.1 ">
+                        </div>
+                        </br>
+                        <div id="oneButtonsAdd">
+                                <input type="button" onClick="changeValue(a, 1)" value=" + 1 ">
+                                <input type="button" onClick="changeValue(b, 1)" value=" + 1 ">
+                                <input type="button" onClick="changeValue(c, 1)" value=" + 1 ">
+                        </div>
+                        </br>
+                </div>
+    
+                <div id="currentValueFields" style="-webkit-text-fill-color: white; position: absolute; left: 50%; margin-left:-108px; top: 285px; text-align: center; font-size: 22px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+                    <div id="currentAValue" style="background-color: lightskyblue; height:30px; width: 60px; position: absolute;left: 8px">
+                        1
+                    </div>
+                    <div id="currentBValue" style="background-color: lightskyblue; height:30px; width: 60px; position: absolute; left:72px;">
+                        1
+                    </div>
+                    <div id="currentCValue" style="background-color: lightskyblue; height:30px; width: 60px; position: absolute; left: 137px">
+                        1
+                    </div>
+                </div>
+    
+                <div id="minusButtons" style="position: absolute; left: 50%; margin-left: -100px; top: 335px">
+                        <div id="oneButtonsMinus">
+                                <input type="button" onClick="changeValue(a, -1)" value=" - 1 ">
+                                <input type="button" onClick="changeValue(b, -1)" value=" - 1 ">
+                                <input type="button" onClick="changeValue(c, -1)" value=" - 1 ">
+                        </div>
+                        </br>
+                        <div id="zeroOneButtonsMinus">
+                                <input type="button" onClick="changeValue(a, -0.1)" value=" - 0.1 ">
+                                <input type="button" onClick="changeValue(b, -0.1)" value=" - 0.1 ">
+                                <input type="button" onClick="changeValue(c, -0.1)"value=" - 0.1 ">
+                        </div>
+                        </br>
+                        <div id="zeroZeroOneButtonsMinus">
+                                <input type="button" onClick="changeValue(a, -0.01)" value=" - 0.01 ">
+                                <input type="button" onClick="changeValue(b, -0.01)" value=" - 0.01 ">
+                                <input type="button" onClick="changeValue(c, -0.01)" value=" - 0.01 ">
+                        </div>
+                        </br>
+                        <div id="tenButtonsMinus">
+                                <input type="button" onClick="changeValue(a, -10)" value=" - 10 ">
+                                <input type="button" onClick="changeValue(b, -10)" value=" - 10 ">
+                                <input type="button" onClick="changeValue(c, -10)" value=" - 10 ">
+                        </div>
+                        </br>
+                </div>
+
+            <h3 id="answerField" style="font-size:30px; font-family: Verdana, Geneva, Tahoma, sans-serif; position: absolute; left: 50%; margin-left:-65px; top:515px">Answer</h3>
+        </div>
+            <script>
+            let a = {
+                value: 1,
+                display: document.getElementById("currentAValue")
+            };
+            let b = {
+                value: 1,
+                display: document.getElementById("currentBValue")
+            };
+            let c = {
+                value: 1,
+                display: document.getElementById("currentCValue")
+            };
+            const answerField = document.getElementById("answerField");
+
+            const changeValue = (objToChange, difference) => {
+                objToChange.value += difference;
+                objToChange.display.innerHTML = objToChange.value.toFixed(2);
+                answerField.style.marginLeft = "-75px";
+                answerField.innerHTML = getRoots();
+            }
+
+            function getRoots() {
+                let underSqrt = Math.pow(b.value, 2) - (4 * a.value * c.value);
+                if (a.value == 0) {
+                    return "x = " + (-1 * b.value / c.value).toFixed(2);
+                }
+                else if (underSqrt < 0) {
+                    answerField.style.marginLeft = "-140px";
+                    let realPart = ((-1 * b.value) / (2 * a.value)).toFixed(2);
+                    let imPart = (Math.sqrt(Math.abs(underSqrt)) / (2 * a.value)).toFixed(2);
+                    return "x = " + realPart + " ± " + imPart + "i" 
+                }
+                else if (underSqrt == 0) {
+                    return "x = " + b.value / (2 * a.value);
+                }
+                else {
+                    let rootWithPlus = ((-1 * b.value) + Math.sqrt(underSqrt)) / (2 * a.value);
+                    let otherRoot = ((-1 * b.value) - Math.sqrt(underSqrt)) / (2 * a.value);
+
+                    return "x = " + rootWithPlus.toFixed(2) + "</br> x = " + otherRoot.toFixed(2); 
+                }
+            }
+            </script>
+        </body>
+</html>
