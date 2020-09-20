@@ -1,0 +1,587 @@
+article_id,full_name,sex,birth_year,death_year,city,state,country,continent,latitude,longitude,occupation,industry,domain,article_languages,page_views,average_views,historical_popularity_index
+,Buffer Row at Top,,-10000,-9000,,,,,,,,,,,,,
+308,Aristotle,Male,-385,-323,Stageira,,Greece,Europe,40.33333,23.5,Philosopher,Philosophy,Humanities,152,56355172,370758,31.9938
+22954,Plato,Male,-427,-348,Athens,,Greece,Europe,37.96667,23.71667,Philosopher,Philosophy,Humanities,142,46812003,329662,31.9888
+1095706,Jesus Christ,Male,-4,33,Judea,,Israel,Asia,32.5,34.9,Religious Figure,Religion,Institutions,214,60299092,281771,31.8981
+25664190,Socrates,Male,-469,-399,Athens,,Greece,Europe,37.96667,23.71667,Philosopher,Philosophy,Humanities,137,40307143,294213,31.6521
+783,Alexander the Great,Male,-356,-323,Pella,,Greece,Europe,40.8,22.51667,Military Personnel,Military,Institutions,138,48358148,350421,31.584
+18079,Leonardo da Vinci,Male,1452,1519,Vinci,,Italy,Europe,43.78333,10.91667,Inventor,Invention,Science & Technology,174,88931135,511098,31.4644
+5823,Confucius,Male,-551,-479,Qufu,,China,Asia,,,Philosopher,Philosophy,Humanities,192,22363652,116477,31.3705
+15924,Julius Caesar,Male,-100,-44,Rome,,Italy,Europe,41.9,12.5,Politician,Government,Institutions,128,43088745,336631,31.1161
+13633,Homer,Male,-750,-700,Smyrna,,Turkey,Europe,38.41861,27.13917,Writer,Language,Humanities,141,20839405,147797,31.1087
+23275,Pythagoras,Male,-570,-495,Samos Island,,Greece,Europe,37.75,26.83333,Philosopher,Philosophy,Humanities,114,26168219,229546,31.0691
+1844,Archimedes,Male,-288,-212,Syracuse,,Italy,Europe,37.08333,15.28333,Mathematician,Math,Science & Technology,129,22022077,170714,30.9907
+19577,Moses,Male,-1391,-1271,Wadi Tumilat,,Egypt,Africa,,,Religious Figure,Religion,Institutions,115,21880195,190263,30.8632
+18934,Muhammad,Male,571,632,Mecca,,Saudi Arabia,Asia,21.41667,39.81667,Religious Figure,Religion,Institutions,150,43026648,286844,30.65
+1436,Abraham,Male,-1800,-1700,Other,,Unknown,,33.7,43.5,Religious Figure,Religion,Institutions,105,17824676,169759,30.6047
+2731583,Adolf Hitler,Male,1889,1945,Braunau am Inn,,Austria,Europe,48.25833,13.035,Politician,Government,Institutions,169,128368798,759579,30.5778
+33163,Wolfgang Amadeus Mozart,Male,1756,1791,Salzburg,,Austria,Europe,47.8,13.03333,Composer,Music,Arts,177,51363334,290188,30.5146
+5314,Charlemagne,Male,748,814,Liège,,Belgium,Europe,,,Politician,Government,Institutions,116,26626252,229537,30.4837
+32897,William Shakespeare,Male,1564,1616,Stratford-upon-Avon,,United Kingdom,Europe,52.19,-1.71,Writer,Language,Humanities,163,74882297,459401,30.4398
+21019,Michelangelo,Male,1475,1564,Caprese Michelangelo,,Italy,Europe,43.63333,11.98333,Painter,Fine Arts,Arts,158,39992803,253119,30.4383
+1273,Augustus,Male,-63,14,Rome,,Italy,Europe,41.9,12.5,Politician,Government,Institutions,117,20307663,173570,30.4195
+69880,Napoleon Bonaparte,Male,1769,1821,Corsica,,France,Europe,41.9267,8.7369,Politician,Government,Institutions,145,57559307,396961,30.3263
+14627,Isaac Newton,Male,1642,1727,Woolsthorpe-by-Colsterworth,,United Kingdom,Europe,52.80986,-0.62877,Physicist,Natural Sciences,Science & Technology,191,59909049,313660,30.2889
+736,Albert Einstein,Male,1879,1955,Ulm,,Germany,Europe,48.4,9.98333,Physicist,Natural Sciences,Science & Technology,166,89771090,540790,30.2106
+5635,Christopher Columbus,Male,1451,1506,Genoa,,Italy,Europe,44.41111,8.93278,Explorer,Explorers,Exploration,153,58442090,381974,30.1753
+9906294,Johann Sebastian Bach,Male,1685,1750,Eisenach,,Germany,Europe,50.97611,10.32056,Composer,Music,Arts,144,29753654,206623,30.1672
+8169,Dante Alighieri,Male,1265,1321,Florence,,Italy,Europe,43.78333,11.25,Writer,Language,Humanities,137,20540747,149932,30.1496
+17914,Ludwig van Beethoven,Male,1770,1827,Bonn,,Germany,Europe,50.73399,7.09981,Composer,Music,Arts,153,48132344,314590,30.1093
+3395,Gautama Buddha,Male,-563,-483,Lumbini,,Nepal,Asia,27.53333,83.05,Philosopher,Philosophy,Humanities,124,23685332,191011,30.0418
+3395,Gautama Buddha Other Possibility,Male,-480,-400,Lumbini,,Nepal,Asia,27.53333,83.05,Philosopher,Philosophy,Humanities,124,23685332,191011,30.0418
+60827,Cleopatra VII of Egypt,Female,-69,-30,Alexandria,,Egypt,Africa,31.2,29.91667,Politician,Government,Institutions,100,18849501,188495,30.0367
+7567080,Martin Luther,Male,1483,1564,Eisleben,,Germany,Europe,51.51667,11.55,Religious Figure,Religion,Institutions,125,35167994,281344,30.0311
+29688374,Galileo Galilei,Male,1564,1642,Pisa,,Italy,Europe,43.71667,10.4,Astronomer,Natural Sciences,Science & Technology,146,48254299,330509,29.96
+13574,Herodotus,Male,-484,-425,Halicarnassus,,Turkey,Asia,37.03778,27.42417,Historian,History,Humanities,103,9703065,94205,29.9592
+9331,Euclid,Male,-350,-250,Other,,Unknown,,,,Mathematician,Math,Science & Technology,117,10896731,93134,29.8846
+32359,Virgil,Male,-70,-19,Mantua,,Italy,Europe,45.11667,10.78333,Writer,Language,Humanities,114,9154149,80300,29.8811
+21632,Nero,Male,37,68,Anzio,,Italy,Europe,41.44795,12.62905,Politician,Government,Institutions,79,18309769,231769,29.8599
+16743,Karl Marx,Male,1818,1883,Trier,,Germany,Europe,49.75,6.63333,Economist,Social Sciences,Science & Technology,148,46599942,314864,29.8429
+19334,Marco Polo,Male,1254,1324,Republic of Venice,,Italy,Europe,45.43333,12.31667,Explorer,Explorers,Exploration,127,17773989,139953,29.7719
+6046,Cicero,Male,-106,-43,Arpino,,Italy,Europe,,,Politician,Government,Institutions,83,13649824,164456,29.7426
+26984,Sophocles,Male,-496,-405,Athens,,Greece,Europe,37.99583,23.71528,Writer,Language,Humanities,100,8948030,89480,29.7421
+32603,Vincent van Gogh,Male,1853,1890,Zundert,,Netherlands,Europe,51.46667,4.66667,Painter,Fine Arts,Arts,155,45449125,293220,29.7384
+17414699,Genghis Khan,Male,1162,1227,Delüün Boldog,,Mongolia,Asia,,,Military Personnel,Military,Institutions,121,27565467,227814,29.7353
+44406,Zoroaster (age 77),Male,-600,-500,Airyanem Vaejah,,Afghanistan,Asia,,,Writer,Language,Humanities,86,7010219,81514,29.7245
+13959,Hannibal Barca,Male,-248,-184,Carthage,,Tunisia,Africa,36.85806,10.33083,Politician,Government,Institutions,86,18246118,212164,29.6911
+14631,Immanuel Kant,Male,1724,1804,Kaliningrad,,Russia,Europe,54.71667,20.51667,Philosopher,Philosophy,Humanities,125,28745025,229960,29.6882
+13486,Hippocrates,Male,-460,-370,Kos,,Greece,Europe,36.85,27.23333,Physician,Medicine,Science & Technology,93,10097815,108579,29.6361
+26743,Sigmund Freud,Male,1856,1939,Příbor,,Czech Republic,Europe,49.63861,18.14389,Psychologist,Social Sciences,Science & Technology,134,43475930,324447,29.6293
+24176,Pablo Picasso,Male,1881,1973,Málaga,,Spain,Europe,36.71944,-4.42,Painter,Fine Arts,Arts,143,56598798,395796,29.5957
+90050,Nefertiti,Female,-1370,-1330,Thebes,,Egypt,Africa,25.72056,32.61028,Companion,Companions,Public Figure,74,9660479,130547,29.5711
+28329,Solomon,Male,-1000,-932,Jerusalem,,Israel,Asia,31.78333,35.21667,Religious Figure,Religion,Institutions,79,13359813,169112,29.5649
+16509,Jeanne d'Arc,Female,1412,1431,Domrémy-la-Pucelle,,France,Europe,48.4431,5.6758,Military Personnel,Military,Institutions,104,27928806,268546,29.5566
+99598,Qin Shi Huang,Male,-259,-210,Handan,,China,Asia,36.6,114.48333,Politician,Government,Institutions,144,9197875,63874,29.5192
+20012109,Aesop,Male,-620,-564,Other,,Unknown,,39.02056,31.28917,Writer,Language,Humanities,69,7898719,114474,29.4989
+10073,Epicurus,Male,-341,-270,Samos Island,,Greece,Europe,37.75,26.83333,Philosopher,Philosophy,Humanities,68,8895085,130810,29.4762
+6852,Caligula,Male,12,41,Anzio,,Italy,Europe,41.44795,12.62905,Politician,Government,Institutions,76,17137539,225494,29.4536
+25525,René Descartes,Male,1596,1650,Descartes,Indre-et-Loire,France,Europe,46.9744,0.6986,Philosopher,Philosophy,Humanities,120,26370301,219753,29.4481
+30437,Tutankhamun,Male,-1341,-1325,Ancient Egypt,,Egypt,Africa,,,Politician,Government,Institutions,75,17640463,235206,29.3953
+73513,Mary,Female,-18,40,Nazareth,,Israel,Asia,32.70194,35.30333,Religious Figure,Religion,Institutions,100,4043545,40435,29.3919
+19242322,Johann Wolfgang von Goethe,Male,1749,1832,Frankfurt,,Germany,Europe,,,Writer,Language,Humanities,132,20958901,158780,29.3385
+20155,Marcus Aurelius,Male,121,180,Rome,,Italy,Europe,41.9,12.5,Politician,Government,Institutions,73,11839877,162190,29.3305
+32375,Voltaire,Male,1694,1778,Paris,,France,Europe,48.8567,2.3508,Writer,Language,Humanities,112,27632624,246720,29.2732
+21444,Niccolò Machiavelli,Male,1469,1527,Florence,,Italy,Europe,43.78333,11.25,Philosopher,Philosophy,Humanities,106,22390820,211234,29.2668
+4068,Blaise Pascal,Male,1623,1662,Clermont-Ferrand,,France,Europe,45.7831,3.0824,Mathematician,Math,Science & Technology,103,17297105,167933,29.2544
+841,Attila the Hun,Male,406,453,Hajdúböszörmény,,Hungary,Europe,,,Politician,Government,Institutions,83,11123103,134013,29.2433
+8551,David,Male,-1040,-970,Bethlehem,,Palestine,Asia,31.70306,35.19556,Politician,Government,Institutions,72,14023246,194767,29.2419
+44525,Raphael,Male,1483,1520,Urbino,,Italy,Europe,43.71667,12.63333,Painter,Fine Arts,Arts,112,16525336,147548,29.2108
+8145410,Charles Darwin,Male,1809,1882,Shrewsbury,,United Kingdom,Europe,52.71278,-2.76319,Biologist,Natural Sciences,Science & Technology,148,49582198,335015,29.1979
+13623554,Che Guevara,Male,1928,1967,Rosario,,Argentina,South America,-32.95,-60.66667,Social Activist,Activism,Public Figure,129,54896869,425557,29.1644
+15941,Jean-Jacques Rousseau,Male,1712,1778,Geneva,,Switzerland,Europe,46.2,6.15,Philosopher,Philosophy,Humanities,106,26399173,249049,29.1628
+65119,Laozi,Male,-500,-300,Henan,,China,Asia,33.9,113.5,Philosopher,Philosophy,Humanities,105,6743614,64225,29.1483
+19379,Mahatma Gandhi,Male,1869,1948,Porbandar,,India,Asia,21.63,69.6,Social Activist,Activism,Public Figure,138,44366012,321493,29.1406
+31665644,Saint Peter,Male,0,66,Bethsaida,,Syria,Asia,32.91,35.631,Religious Figure,Religion,Institutions,98,14650751,149497,29.1364
+23979,Ptolemy,Male,100,170,Egypt,,Egypt,Africa,31.2,29.91667,Astronomer,Natural Sciences,Science & Technology,87,9459640,108731,29.0892
+16125,John the Baptist,Male,-5,31,Jerusalem,,Israel,Asia,,,Religious Figure,Religion,Institutions,78,10702126,137207,29.0865
+20787,Mary Magdalene,Female,1,60,Magdala,,Israel,Asia,32.825,35.5075,Religious Figure,Religion,Institutions,65,13657412,210114,29.0759
+13151,Gilgamesh,Male,-2800,-2500,Other,,Iraq,Asia,,,Politician,Government,Institutions,54,9602219,177819,29.0492
+45080,Vasco da Gama,Male,1469,1524,Sines,,Portugal,Europe,37.95472,-8.86444,Explorer,Explorers,Exploration,119,12831158,107825,29.0264
+1814,Adam Smith,Male,1723,1790,Kirkcaldy,,United Kingdom,Europe,56.11073,-3.16737,Economist,Social Sciences,Science & Technology,111,20395667,183745,29.0105
+10128,Elizabeth I of England,Female,1533,1603,London,,United Kingdom,Europe,51.48222,-0.00667,Politician,Government,Institutions,106,39290364,370664,29.0005
+19914843,Ferdinand Magellan,Male,1480,1521,Sabrosa,,Portugal,Europe,41.28444,-7.595,Explorer,Explorers,Exploration,120,14936167,124468,28.9393
+15641,Joseph Stalin,Male,1878,1953,Gori,,Georgia,Asia,41.96667,44.1,Politician,Government,Institutions,134,42908561,320213,28.9317
+21476519,Ramesses II (the Great),Male,-1303,-1214,Other,,Egypt,Africa,,,Politician,Government,Institutions,59,10524828,178387,28.9233
+11015252,Vladimir Lenin,Male,1870,1924,Ulyanovsk,,Russia,Europe,54.31667,48.36667,Politician,Government,Institutions,137,27160642,198253,28.9211
+94111,Leonidas I,Male,-540,-480,Sparta,,Greece,Europe,37.08194,22.42361,Politician,Government,Institutions,57,11025629,193432,28.9027
+89728,Akhenaten,Male,-1380,-1335,Other,,Egypt,Africa,26,30,Politician,Government,Institutions,62,7197331,116086,28.856
+15745,Johannes Gutenberg,Male,1398,1468,Mainz,,Germany,Europe,50,8.26667,Inventor,Invention,Science & Technology,108,11713571,108459,28.8535
+9808,Euripides,Male,-480,-406,Salamis Island,,Greece,Europe,37.93333,23.5,Writer,Language,Humanities,65,5941148,91402,28.8391
+75150,Seneca the Younger,Male,-4,65,Córdoba,,Spain,Europe,37.88333,-4.76667,Philosopher,Philosophy,Humanities,62,8549935,137902,28.8207
+2402,Albrecht Dürer,Male,1471,1528,Nuremberg,,Germany,Europe,49.45,11.08333,Painter,Fine Arts,Arts,112,10212700,91185,28.8184
+36812,Pericles,Male,-495,-429,Athens,,Greece,Europe,37.96667,23.71667,Politician,Government,Institutions,63,7934375,125942,28.8129
+51825,Sun Tzu,Male,-544,-496,Qi,,China,Asia,,,Philosopher,Philosophy,Humanities,81,6622800,81763,28.7957
+13621,Hadrian,Male,76,138,Italica,,Spain,Europe,37.44389,-6.04667,Politician,Government,Institutions,64,6885963,107593,28.7796
+59172,Judas Iscariot,Male,-1,33,Other,,Unknown,,,,Religious Figure,Religion,Institutions,63,11142102,176859,28.7693
+19960,Mark Antony,Male,-83,-30,Rome,,Italy,Europe,41.9,12.5,Politician,Government,Institutions,61,9040703,148208,28.7531
+14358,Hammurabi,Male,-1810,-1750,Babylon,,Iraq,Asia,32.53639,44.42083,Politician,Government,Institutions,82,5376002,65561,28.7455
+16143,John Locke,Male,1632,1704,Wrington,,United Kingdom,Europe,51.3617,-2.7606,Philosopher,Philosophy,Humanities,99,23061256,232942,28.7425
+1028,Aristophanes,Male,-446,-386,Athens,,Greece,Europe,37.96667,23.71667,Writer,Language,Humanities,68,4704294,69181,28.7213
+20076,"Martin Luther King, Jr.",Male,1929,1968,Atlanta,GA,United States,North America,33.755,-84.39,Social Activist,Activism,Public Figure,116,28854653,248747,28.6877
+24517,Plutarch,Male,46,120,Chaeronea,,Greece,Europe,38.51667,22.85,Philosopher,Philosophy,Humanities,72,5399390,74992,28.6819
+10671,Friedrich Nietzsche,Male,1844,1900,Röcken,,Germany,Europe,51.24083,12.11611,Philosopher,Philosophy,Humanities,117,39344570,336278,28.6677
+42146,Victor Hugo,Male,1802,1885,Besançon,,France,Europe,47.2431,6.0219,Writer,Language,Humanities,123,25659755,208616,28.6599
+14980,Imhotep,Male,-2650,-2550,Memphis,,Egypt,Africa,29.84472,31.25083,Architect,Design,Arts,56,4231465,75562,28.6228
+9288,Elvis Presley,Male,1935,1977,Tupelo,MS,United States,North America,34.25972,-88.72583,Singer,Music,Arts,118,55896331,473698,28.6172
+40112,Salvador Dalí,Male,1904,1989,Figueres,,Spain,Europe,42.26667,2.965,Painter,Fine Arts,Arts,122,37482606,307234,28.593
+25452,Richard Wagner,Male,1813,1883,Leipzig,,Germany,Europe,51.33333,12.38333,Composer,Music,Arts,116,17596072,151690,28.5694
+19283178,Benito Mussolini,Male,1883,1945,Predappio,,Italy,Europe,44.1,11.98333,Politician,Government,Institutions,105,30179131,287420,28.5507
+13700,Hesiod,Male,-800,-700,Other,,Greece,Europe,,,Writer,Language,Humanities,61,3804261,62365,28.5445
+46289,Xerxes I of Persia,Male,-519,-465,Other,,Iran,Asia,32,53,Politician,Government,Institutions,57,8762549,153729,28.5358
+30536,Tiberius,Male,-42,37,Rome,,Italy,Europe,41.9,12.5,Politician,Government,Institutions,75,7080121,94402,28.5326
+22614,Oscar Wilde,Male,1854,1900,Dublin,,Ireland,Europe,53.34778,-6.25972,Writer,Language,Humanities,100,27541340,275413,28.5287
+10868,Francisco Goya,Male,1746,1828,Fuendetodos,,Spain,Europe,41.34333,-0.85861,Painter,Fine Arts,Arts,116,13608720,117317,28.5249
+21463370,Peter Paul Rubens,Male,1577,1640,Siegen,,Germany,Europe,50.88333,8.01667,Painter,Fine Arts,Arts,99,8171725,82543,28.5205
+6548,Claude Monet,Male,1840,1926,Paris,,France,Europe,48.8567,2.3508,Painter,Fine Arts,Arts,92,23208960,252271,28.5044
+234264,Diogenes of Sinope,Male,-412,-323,Sinop,,Turkey,Asia,42.03333,35.15,Philosopher,Philosophy,Humanities,62,5869970,94677,28.4978
+8580,Diocletian,Male,244,311,Solin,,Croatia,Europe,43.535,16.485,Politician,Government,Institutions,70,5522343,78891,28.4917
+10823,Frédéric Chopin,Male,1810,1849,Żelazowa Wola,,Poland,Europe,52.26667,20.33333,Composer,Music,Arts,109,22680875,208081,28.4658
+14187,Henry VIII of England,Male,1491,1547,Greenwhich,,United Kingdom,Europe,51.48222,-0.00667,Nobleman,Government,Institutions,77,48601509,631188,28.4656
+19527,Mao Zedong,Male,1893,1976,Shaoshan,,China,Asia,27.91,112.48,Politician,Government,Institutions,122,29051982,238131,28.4606
+45109,Marie Antoinette,Female,1755,1793,Vienna,,Austria,Europe,48.2,16.36667,Nobleman,Government,Institutions,65,32610600,501702,28.4474
+6125,Carl Friedrich Gauss,Male,1777,1855,Braunschweig,,Germany,Europe,52.26667,10.51667,Mathematician,Math,Science & Technology,108,10019549,92774,28.4442
+22416,Otto von Bismarck,Male,1815,1898,Schönhausen,,Germany,Europe,52.57861,12.03972,Politician,Government,Institutions,108,15484912,143379,28.386
+7018,Caravaggio,Male,1571,1610,Milan,,Italy,Europe,45.46667,9.18333,Painter,Fine Arts,Arts,71,13560021,190986,28.3579
+15192,Isaac,Male,-3500,-3400,Canaan,,Israel,Asia,,,Religious Figure,Religion,Institutions,62,4778973,77080,28.3556
+16209,Justinian I,Male,483,565,Tauresium,,Republic Of Macedonia,Europe,,,Politician,Government,Institutions,72,5998344,83310,28.3512
+17740,Louis Pasteur,Male,1822,1895,Dole,,France,Europe,47.0931,5.4906,Chemist,Natural Sciences,Science & Technology,116,17803458,153478,28.3177
+44324,Commodus,Male,161,192,Lanuvium,,Italy,Europe,41.6747,12.69758,Politician,Government,Institutions,57,5964371,104638,28.3054
+18993992,Spartacus,Male,-109,-71,Thrace,,Bulgaria,Europe,,,Military Personnel,Military,Institutions,64,29683994,463812,28.2996
+12775,George Frideric Handel,Male,1685,1759,Halle,,Germany,Europe,51.48333,11.96667,Composer,Music,Arts,93,10717383,115241,28.2857
+5233,Carl Linnaeus,Male,1707,1778,Råshult,,Sweden,Europe,56.618,14.202,Biologist,Natural Sciences,Science & Technology,123,9210590,74883,28.2851
+21615,Nostradamus,Male,1503,1566,Saint-Rémy-de-Provence,,France,Europe,43.79,4.8325,Writer,Language,Humanities,74,22719309,307018,28.2818
+11625,Fyodor Dostoyevsky,Male,1821,1881,Moscow,,Russia,Europe,55.75,37.61667,Writer,Language,Humanities,113,13376431,118375,28.2486
+31131,Theodosius I,Male,347,395,Coca,Segovia,Spain,Europe,41.2167,-4.5167,Politician,Government,Institutions,65,3904324,60067,28.2484
+9840,Elijah,Male,-900,-849,Tishbe,Gilead,Jordan,Asia,,,Religious Figure,Religion,Institutions,55,5685950,103381,28.2463
+58230,Solon,Male,-638,-560,Athens,,Greece,Europe,37.96667,23.71667,Politician,Government,Institutions,54,4115537,76214,28.2375
+52121,Strabo,Male,-64,23,Amasya,,Turkey,Asia,40.65,35.83306,Geographer,Social Sciences,Science & Technology,67,2234878,33356,28.2178
+18622119,Leo Tolstoy,Male,1828,1910,Yasnaya Polyana,,Russia,Europe,54.07611,37.52611,Writer,Language,Humanities,123,16181442,131556,28.2126
+29823,Thomas Hobbes,Male,1588,1679,Malmesbury,,United Kingdom,Europe,,,Philosopher,Philosophy,Humanities,79,13453210,170294,28.2082
+242606,Khufu,Male,-2620,-2566,Other,,Unknown,,,,Politician,Government,Institutions,52,3397134,65330,28.2012
+12281,Gottfried Wilhelm von Leibniz,Male,1646,1716,Leipzig,,Germany,Europe,51.33333,12.38333,Mathematician,Math,Science & Technology,106,7295094,68822,28.1935
+15930,John Calvin,Male,1509,1564,Noyon,,France,Europe,49.5817,2.9997,Religious Figure,Religion,Institutions,79,9406706,119072,28.177
+32917,Walt Disney,Male,1901,1966,Chicago,IL,United States,North America,41.92,-87.73,Producer,Business,Business & Law,113,33332870,294981,28.1723
+33265,Winston Churchill,Male,1874,1965,Blenheim Palace,,United Kingdom,Europe,51.84194,-1.36139,Politician,Government,Institutions,114,32842779,288095,28.1069
+52346,Nebuchadrezzar II,Male,-634,-562,Other,,Iraq,Asia,,,Politician,Government,Institutions,57,5540287,97198,28.0941
+15630,James Cook,Male,1728,1779,Marton,,United Kingdom,Europe,54.5406,-1.2124,Explorer,Explorers,Exploration,115,11738304,102072,28.0893
+3986,Benjamin Franklin,Male,1706,1790,Boston,MA,United States,North America,42.35806,-71.06361,Politician,Government,Institutions,88,29472054,334910,28.0867
+9549,Edgar Allan Poe,Male,1809,1849,Boston,MA,United States,North America,42.35806,-71.06361,Writer,Language,Humanities,99,33748011,340889,28.0844
+11968,George Washington,Male,1732,1799,Westmoreland County,VA,United States,North America,38.11,-76.8,Politician,Government,Institutions,134,34838477,259989,28.046
+69852,Donatello,Male,1386,1466,Florence,,Italy,Europe,43.78333,11.25,Painter,Fine Arts,Arts,79,6995725,88553,28.0258
+29778,Thomas Edison,Male,1847,1931,Milan,OH,United States,North America,41.29333,-82.60139,Inventor,Invention,Science & Technology,126,38631687,306601,28.0222
+2447,Anton Chekhov,Male,1860,1904,Taganrog,,Russia,Europe,47.21667,38.91667,Writer,Language,Humanities,110,9327460,84795,27.9551
+14013,Hernán Cortés,Male,1485,1547,Medellín,,Spain,Europe,38.96306,-5.95778,Explorer,Explorers,Exploration,106,12277143,115822,27.9426
+323592,Nicolaus Copernicus,Male,1473,1543,Toruń,,Poland,Europe,53.01667,18.61667,Astronomer,Natural Sciences,Science & Technology,128,32512598,254005,27.9412
+307,Abraham Lincoln,Male,1809,1865,Hodgenville,KY,United States,North America,37.57111,-85.73861,Politician,Government,Institutions,131,66145211,504925,27.9386
+19727,Michael Faraday,Male,1791,1867,Newington Butts,,United Kingdom,Europe,51.4919,-0.1029,Physicist,Natural Sciences,Science & Technology,110,10305685,93688,27.9266
+1425,Antonio Vivaldi,Male,1678,1741,Venice,,Italy,Europe,45.4375,12.33583,Composer,Music,Arts,103,15870117,154079,27.8898
+69804,Phidias,Male,-480,-430,Other,,Unknown,Unknown,,,Sculptor,Fine Arts,Arts,47,2664469,56691,27.8852
+152487,Paracelsus,Male,1493,1541,Einsiedeln,,Switzerland,Europe,47.11667,8.73333,Physician,Medicine,Science & Technology,61,5367602,87993,27.8602
+8239846,Bob Marley,Male,1945,1981,Nine Mile,,Jamaica,North America,18.2978,-77.2781,Musician,Music,Arts,91,60597640,665908,27.8593
+1737,Anaxagoras,Male,-500,-428,Clazomenae,,Turkey,Asia,38.35817,26.76758,Philosopher,Philosophy,Humanities,62,2528167,40777,27.8564
+54204,Philip II of Macedon,Male,-382,-336,Pella,,Greece,Europe,40.8,22.51667,Politician,Government,Institutions,57,3619870,63506,27.8487
+17949,Leonardo Fibonacci,Male,1170,1250,Pisa,,Italy,Europe,43.71667,10.4,Mathematician,Math,Science & Technology,82,5180458,63176,27.8288
+7925,David Hume,Male,1711,1776,Edinburgh,,United Kingdom,Europe,55.95306,-3.18889,Philosopher,Philosophy,Humanities,81,11286165,139335,27.8185
+23867,Pompey,Male,-106,-48,Roman Republic,,Italy,Europe,,,Politician,Government,Institutions,60,5041050,84018,27.814
+51255,Charles de Gaulle,Male,1890,1970,Lille,,France,Europe,50.6278,3.0583,Military Personnel,Military,Institutions,107,14688101,137272,27.8011
+44920,Pliny the Elder,Male,23,79,Como,,Italy,Europe,45.81667,9.08333,Philosopher,Philosophy,Humanities,61,4448919,72933,27.7997
+11466,Francisco Franco,Male,1892,1975,Ferrol,,Spain,Europe,43.46667,-8.25,Politician,Government,Institutions,82,16767124,204477,27.7709
+5142,Charlie Chaplin,Male,1889,1977,Walworth,,United Kingdom,Europe,51.4898,-0.0905,Actor,Film And Theatre,Arts,145,38615107,266311,27.7704
+47096,Friedrich Engels,Male,1820,1895,Wuppertal,,Germany,Europe,51.26667,7.18333,Philosopher,Philosophy,Humanities,91,7678629,84381,27.7439
+4254144,Rembrandt,Male,1606,1669,Leiden,,Netherlands,Europe,52.16667,4.48333,Painter,Fine Arts,Arts,125,20985901,167887,27.7433
+33832,William Wallace,Male,1270,1305,Elderslie,,United Kingdom,Europe,55.83061,-4.48421,Military Personnel,Military,Institutions,61,15650413,256564,27.7419
+32802,Vercingetorix,Male,-82,-46,Other,,Unknown,Unknown,,,Military Personnel,Military,Institutions,45,3578372,79519,27.7226
+13436,Heinrich Himmler,Male,1900,1945,Munich,,Germany,Europe,48.13333,11.56667,Politician,Government,Institutions,70,17558545,250836,27.7085
+16339,Johannes Brahms,Male,1833,1897,Hamburg,,Germany,Europe,53.56528,10.00139,Composer,Music,Arts,103,8261948,80213,27.6843
+5119376,John F. Kennedy,Male,1917,1963,Boston,MA,United States,North America,42.33167,-71.12167,Politician,Government,Institutions,116,57596834,496524,27.6634
+11891,George Orwell,Male,1903,1950,Motihari,,India,Asia,26.65,84.91667,Writer,Language,Humanities,101,16450860,162880,27.6602
+197745,Pyrrhus of Epirus,Male,-319,-272,Epirus,,Greece,Europe,,,Military Personnel,Military,Institutions,47,2524397,53711,27.6504
+92550,Omar Khayyám,Male,1048,1131,Nishapur,,Iran,Asia,36.21333,58.79583,Mathematician,Math,Science & Technology,86,6419560,74646,27.647
+851,Alfred Nobel,Male,1833,1896,Stockholm,,Sweden,Europe,59.32944,18.06861,Chemist,Natural Sciences,Science & Technology,109,11998627,110079,27.6462
+357200,Queen of Sheba (if existed),Female,-1000,-900,Marib,,Yemen,Asia,,,Politician,Government,Institutions,52,6021924,115806,27.6447
+37325,Marcus Junius Brutus,Male,-85,-42,Rome,,Italy,Europe,41.9,12.5,Politician,Government,Institutions,48,3956257,82422,27.6433
+15600,James Joyce,Male,1882,1941,Rathgar,,Ireland,Europe,53.31167,-6.27433,Writer,Language,Humanities,114,11006755,96550,27.6173
+11319,Francis Bacon,Male,1561,1626,London,,United Kingdom,Europe,51.51139,-0.11889,Philosopher,Philosophy,Humanities,82,10858412,132420,27.616
+38301,Fidel Castro,Male,1926,2016,Birán,,Cuba,North America,20.55,-75.9,Politician,Government,Institutions,115,28679945,249391,27.6097
+154450,Mark Twain,Male,1835,1910,Florida,MO,United States,North America,39.49167,-91.79,Writer,Language,Humanities,106,20607309,194409,27.6084
+15777,Joseph Goebbels,Male,1897,1945,Rheydt,,Germany,Europe,51.16667,6.45,Politician,Government,Institutions,71,16667883,234759,27.6044
+20408,Marie Curie,Female,1867,1934,Warsaw,,Poland,Europe,52.23333,21.01667,Chemist,Natural Sciences,Science & Technology,130,30874600,237497,27.603
+113070,Pontius Pilate,Male,1,60,Abruzzo,,Italy,Europe,41.9,12.48333,Politician,Government,Institutions,54,7359680,136290,27.5753
+9428,Ernest Hemingway,Male,1899,1961,Chicago,IL,United States,North America,41.88333,-87.8,Writer,Language,Humanities,110,31968926,290627,27.5732
+29490,Saddam Hussein,Male,1937,2006,Al-Awja,,Iraq,Asia,34.53306,43.73306,Politician,Government,Institutions,98,26122662,266558,27.5586
+13550,Hans Christian Andersen,Male,1805,1875,Odense,,Denmark,Europe,55.39583,10.38861,Writer,Language,Humanities,103,14827483,143956,27.5539
+37973,John Maynard Keynes,Male,1883,1946,Cambridge,,United Kingdom,Europe,52.205,0.119,Economist,Social Sciences,Science & Technology,92,12433489,135147,27.5345
+76572,Antonín Dvořák,Male,1841,1904,Nelahozeves,,Czech Republic,Europe,50.26667,14.3,Composer,Music,Arts,91,6571884,72219,27.5298
+37145,Lucretius,Male,-99,-55,Other,,Unknown,,,,Philosopher,Philosophy,Humanities,56,2366355,42256,27.5164
+6860726,Jack the Ripper,Male,1850,1900,Other,,United Kingdom,Europe,,,Extremist,Outlaws,Public Figure,55,26544061,482619,27.5157
+11508,Francis Drake,Male,1540,1596,Tavistock,,United Kingdom,Europe,50.545,-4.15,Pirate,Outlaws,Public Figure,82,8493359,103578,27.515
+162276,Frida Kahlo,Female,1907,1954,Coyoacán,,Mexico,North America,19.35,-99.16167,Painter,Fine Arts,Arts,112,24591278,219565,27.5025
+2062,Amerigo Vespucci,Male,1454,1512,Florence,,Italy,Europe,43.78333,11.25,Explorer,Explorers,Exploration,66,8051998,122000,27.5007
+27827075,Gabriel García Márquez,Male,1927,2014,Aracataca,,Colombia,South America,10.59369,-74.19281,Writer,Language,Humanities,103,19679103,191059,27.4937
+29922,Thomas Jefferson,Male,1743,1826,Shadwell,VA,United States,North America,38.01238,-78.41778,Politician,Government,Institutions,113,26350722,233192,27.4789
+716868,Vlad III the Impaler,Male,1431,1476,Sighişoara,,Romania,Europe,46.21694,24.79111,Nobleman,Government,Institutions,58,10926855,188394,27.4686
+44240,Catherine II of Russia (the Great),Female,1729,1796,Szczecin,,Poland,Europe,53.4325,14.54806,Nobleman,Government,Institutions,82,11407818,139120,27.4659
+24953,Pelé,Male,1940,2020,Três Corações,,Brazil,South America,-21.69472,-45.25528,Soccer Player,Team Sports,Sports,88,24153197,274468,27.4466
+23805,Pope John Paul II,Male,1920,2005,Wadowice,,Poland,Europe,49.88333,19.48333,Religious Figure,Religion,Institutions,110,38369456,348813,27.4423
+90625,Basho,Male,1644,1694,Iga-Ueno,,Japan,Asia,,,Writer,Language,Humanities,101,3080802,30503,27.4402
+231699,Giacomo Casanova,Male,1725,1798,Venice,,Italy,Europe,45.4375,12.33583,Writer,Language,Humanities,61,8481120,139035,27.4066
+22413,Oliver Cromwell,Male,1599,1658,Huntingdon,,United Kingdom,Europe,52.3364,-0.1717,Politician,Government,Institutions,70,12635265,180504,27.4027
+113093,Djoser,Male,-2700,-2649,Other,,Unknown,Unknown,,,Politician,Government,Institutions,47,1424091,30300,27.3983
+113093,Djoser (possible),Male,-2700,-2611,Other,,Unknown,Unknown,,,Politician,Government,Institutions,47,1424091,30300,27.3983
+84096,Ptolemy I Soter,Male,-367,-283,Other,,Unknown,,,,Military Personnel,Military,Institutions,50,1992173,39843,27.3973
+10979,Franklin D. Roosevelt,Male,1882,1945,Poughkeepsie,NY,United States,North America,41.78333,-73.9,Politician,Government,Institutions,113,34162617,302324,27.3888
+20754760,Kublai Khan,Male,1215,1294,Other,,China,Asia,46,105,Politician,Government,Institutions,69,5144799,74562,27.3855
+24874360,"Horatio Nelson, 1st Viscount Nelson",Male,1758,1805,Norfolk,,United Kingdom,Europe,52.936,0.76,Military Personnel,Military,Institutions,62,2583710,41673,27.3833
+55271,Francisco Pizarro,Male,1471,1541,Trujillo,Cáceres,Spain,Europe,39.46528,-5.87889,Explorer,Explorers,Exploration,67,7238953,108044,27.3612
+21473,Nikola Tesla,Male,1856,1943,Smiljan,,Croatia,Europe,44.56667,15.31667,Inventor,Invention,Science & Technology,111,42369769,381710,27.3472
+20979,Mikhail Gorbachev,Male,1931,2020,Stavropol,,Russia,Europe,,,Politician,Government,Institutions,100,16776035,167760,27.3263
+22680,Oda Nobunaga,Male,1534,1582,Nagoya,,Japan,Asia,35.18556,136.89861,Military Personnel,Military,Institutions,49,15338264,313026,27.3249
+64963,Édith Piaf,Female,1915,1963,Paris,,France,Europe,48.87389,2.38528,Singer,Music,Arts,91,17576513,193148,27.32
+12153654,Elizabeth II,Female,1926,2020,London,,United Kingdom,Europe,51.50876,-0.14743,Nobleman,Government,Institutions,127,54551771,429542,27.3167
+19848,Max Planck,Male,1858,1947,Kiel,,Germany,Europe,54.33333,10.13333,Physicist,Natural Sciences,Science & Technology,103,6995718,67920,27.315
+17888,Leon Trotsky,Male,1879,1940,Yelizavetgrad,,Ukraine,Europe,48.5,32.26667,Politician,Government,Institutions,98,12668544,129271,27.2965
+65174,Gustav Mahler,Male,1860,1911,Kaliště,,Czech Republic,Europe,49.59306,15.30417,Composer,Music,Arts,76,7499603,98679,27.2288
+7673195,Pablo Neruda,Male,1904,1973,Parral,,Chile,South America,-36.15,-71.83333,Writer,Language,Humanities,95,15642095,164654,27.2282
+25433,Ronald Reagan,Male,1911,2004,Tampico,IL,United States,North America,41.63056,-89.78528,Politician,Government,Institutions,107,35787293,334461,27.2281
+14573,Isaac Asimov,Male,1920,1992,Petrovichi,,Russia,Europe,53.96667,32.16667,Writer,Language,Humanities,89,12760596,143377,27.2274
+10858,Franz Kafka,Male,1883,1924,Prague,,Czech Republic,Europe,50.08333,14.41667,Writer,Language,Humanities,120,23538969,196158,27.2208
+23860776,Maximilien Robespierre,Male,1758,1794,Arras,,France,Europe,50.2897,2.7808,Politician,Government,Institutions,67,7014504,104694,27.1949
+18951335,Arthur Conan Doyle,Male,1859,1930,Edinburgh,,United Kingdom,Europe,55.95306,-3.18889,Writer,Language,Humanities,90,11410788,126787,27.1892
+52139,Audrey Hepburn,Female,1929,1993,Ixelles,,Belgium,Europe,50.83333,4.36667,Actor,Film And Theatre,Arts,80,34983096,437289,27.1613
+11291214,Coco Chanel,Female,1883,1971,Saumur,,France,Europe,47.26,-0.0769,Fashion Designer,Design,Arts,57,20727593,363642,27.1606
+44887,Robert Alexander Schumann,Male,1810,1856,Zwickau,,Germany,Europe,50.71667,12.5,Composer,Music,Arts,76,8565063,112698,27.1574
+60633,Dmitri Mendeleev,Male,1834,1907,Tobolsk,,Russia,Europe,58.19528,68.25806,Chemist,Natural Sciences,Science & Technology,109,8276448,75931,27.1571
+24503,Pyotr Ilyich Tchaikovsky,Male,1840,1893,Votkinsk,,Russia,Europe,57.05,54,Composer,Music,Arts,107,16458359,153816,27.1449
+51831,Valerian,Male,200,264,Other,,Unknown,Unknown,,,Politician,Government,Institutions,47,771977,16425,27.1442
+44888,Franz Schubert,Male,1797,1828,Alsergrund,,Austria,Europe,48.22528,16.35694,Composer,Music,Arts,91,12991222,142761,27.1438
+55917,Simón Bolívar,Male,1783,1830,Caracas,,Venezuela,South America,10.5,-66.91667,Politician,Government,Institutions,112,19164374,171110,27.1433
+49407,Pliny the Younger,Male,61,113,Como,,Italy,Europe,45.81667,9.08333,Writer,Language,Humanities,49,2046422,41764,27.1431
+804581,Anne Frank,Female,1929,1945,Frankfurt,,Germany,Europe,50.11667,8.68333,Writer,Language,Humanities,77,26806636,348138,27.1032
+13736167,Paul McCartney,Male,1942,2020,Liverpool,,United Kingdom,Europe,53.443,-2.955,Musician,Music,Arts,88,33759450,383630,27.0985
+984,Agatha Christie,Female,1890,1976,Torquay,,United Kingdom,Europe,50.4792,-3.5305,Writer,Language,Humanities,91,19500789,214294,27.0901
+48068,Maurice Ravel,Male,1875,1937,Ciboure,,France,Europe,43.3864,-1.6667,Composer,Music,Arts,61,6871143,112642,27.084
+21511,Niccolò Paganini,Male,1782,1840,Genoa,,Italy,Europe,44.41111,8.93278,Musician,Music,Arts,64,5298435,82788,27.081
+67379,Franz Liszt,Male,1811,1886,Raiding,,Austria,Europe,47.56667,16.53333,Musician,Music,Arts,72,10862009,150861,27.0739
+61322,Alcibiades,Male,-450,-404,Athens,,Greece,Europe,37.96667,23.71667,Politician,Government,Institutions,42,1986688,47302,27.0543
+21492751,Nelson Mandela,Male,1918,2013,Mvezo,,South Africa,Africa,-31.95,28.516,Social Activist,Activism,Public Figure,133,67714052,509128,27.0542
+10130,Emperor Jimmu,Male,-711,-585,Kyushu,,Japan,Asia,33,131,Politician,Government,Institutions,40,3709658,92741,27.048
+44112,John Dalton,Male,1766,1844,Eaglesfield,,United Kingdom,Europe,54.63,-3.41,Chemist,Natural Sciences,Science & Technology,72,11134146,154641,27.0386
+42558,Nikita Khrushchev,Male,1894,1971,Kalinovka,,Russia,Europe,51.9,34.5,Politician,Government,Institutions,86,11342575,131890,27.0368
+227696,Luciano Pavarotti,Male,1935,2007,Modena,,Italy,Europe,44.65,10.93333,Singer,Music,Arts,78,9663014,123885,27.0306
+3212,Al Capone,Male,1899,1947,New York,NY,United States,North America,40.69278,-73.99028,Mafioso,Outlaws,Public Figure,62,30453235,491181,27.0301
+19376148,Stephen Hawking,Male,1942,2018,Oxford,,United Kingdom,Europe,51.75194,-1.25778,Physicist,Natural Sciences,Science & Technology,84,48854549,581602,27.0191
+25473,Richard Nixon,Male,1913,1994,Los Angeles,CA,United States,North America,33.88855,-117.81323,Politician,Government,Institutions,103,27325221,265293,27.0141
+100127,Florence Nightingale,Female,1820,1910,Florence,,Italy,Europe,43.78333,11.25,Physician,Medicine,Science & Technology,81,12183178,150410,27.0094
+42127,Christiaan Huygens,Male,1629,1695,The Hague,,Netherlands,Europe,52.08333,4.31667,Physicist,Natural Sciences,Science & Technology,76,2898636,38140,27.0038
+9514,Edvard Grieg,Male,1843,1907,Bergen,,Norway,Europe,60.38944,5.33,Composer,Music,Arts,66,4932411,74734,26.9983
+191497,Sarah,Female,-1803,-1676,Other,,Unknown,Unknown,,,Religious Figure,Religion,Institutions,37,3352644,90612,26.9967
+83875,Dido,Female,-840,-759,Phnom Penh,,Lebanon,Asia,33.27083,35.19611,Politician,Government,Institutions,35,1482119,42346,26.9951
+72745,Croesus,Male,-595,-547,Other,,Unknown,Unknown,,,Politician,Government,Institutions,42,1990152,47385,26.9736
+32003,Umberto Eco,Male,1932,2016,Alessandria,,Italy,Europe,44.91667,8.61667,Writer,Language,Humanities,74,7477228,101044,26.9693
+37142,Zeno of Citium,Male,-334,-262,Larnaca,,Cyprus,Asia,34.91667,33.63333,Philosopher,Philosophy,Humanities,47,1417320,30156,26.963
+27640,Samuel Beckett,Male,1906,1989,Foxrock,,Ireland,Europe,53.2667,-6.1742,Writer,Language,Humanities,82,8028327,97906,26.9624
+259901,Liu Bei,Male,161,223,Zhuozhou,,China,Asia,39.48333,115.96667,Politician,Government,Institutions,28,5056509,180590,26.9575
+28989696,James Clerk Maxwell,Male,1831,1879,Edinburgh,,United Kingdom,Europe,55.95306,-3.18889,Physicist,Natural Sciences,Science & Technology,96,6688431,69671,26.9468
+253776,Amenhotep III,Male,-1388,-1351,Other,,Unknown,Unknown,,,Politician,Government,Institutions,45,1605312,35674,26.9426
+12855,George Bernard Shaw,Male,1856,1950,Dublin,,Ireland,Europe,53.34778,-6.25972,Writer,Language,Humanities,92,8930574,97071,26.9408
+9603,Ernest Rutherford,Male,1871,1937,Brightwater,,New Zealand,Oceania,-41.38333,173.11667,Chemist,Natural Sciences,Science & Technology,97,9311444,95994,26.9284
+28330,Saul the King,Male,-1079,-1010,Gibeah,,Jordan,Asia,31.82337,35.23115,Religious Figure,Religion,Institutions,47,3113531,66245,26.9245
+439058,Yellow Emperor,Male,-2700,-2599,Zhengzhou,,China,Asia,34.76667,113.65,Politician,Government,Institutions,39,1582199,40569,26.9237
+15614,Jonathan Swift,Male,1667,1745,Dublin,,Ireland,Europe,53.34778,-6.25972,Writer,Language,Humanities,73,5527412,75718,26.9233
+70631,Alexander von Humboldt,Male,1769,1859,Berlin,,Germany,Europe,52.51667,13.38333,Geographer,Social Sciences,Science & Technology,72,5689119,79016,26.9229
+852,Alexander Graham Bell,Male,1847,1922,Edinburgh,,United Kingdom,Europe,55.95306,-3.18889,Inventor,Invention,Science & Technology,94,18989520,202016,26.9228
+30027,Tycho Brahe,Male,1546,1601,Scania,,Sweden,Europe,55.8,13.61667,Astronomer,Natural Sciences,Science & Technology,83,5741952,69180,26.9216
+53424,Hector Berlioz,Male,1803,1869,La Côte-Saint-André,,France,Europe,45.3944,5.2614,Composer,Music,Arts,84,3803358,45278,26.9059
+15782,Jane Austen,Female,1775,1817,Steventon,,United Kingdom,Europe,51.2303,-1.2189,Writer,Language,Humanities,84,22946034,273167,26.904
+15872,J. R. R. Tolkien,Male,1892,1973,Bloemfontein,,South Africa,Africa,-29.11667,26.21667,Writer,Language,Humanities,110,21230098,193001,26.9024
+9779,Edvard Munch,Male,1863,1944,Ådalsbruk,,Norway,Europe,60.78333,11.3,Painter,Fine Arts,Arts,73,10394698,142393,26.8975
+26199,Roald Amundsen,Male,1872,1928,Ostfold,,Norway,Europe,,,Explorer,Explorers,Exploration,118,4950547,41954,26.8888
+1937,Alexander Fleming,Male,1881,1955,Lochfield,,United Kingdom,Europe,,,Biologist,Natural Sciences,Science & Technology,81,9383477,115845,26.8821
+15088,Isaiah,Male,-760,-686,Kingdom of Judah,,Israel,Asia,,,Religious Figure,Religion,Institutions,43,3472589,80758,26.8759
+5884,Charles Dickens,Male,1812,1870,Portsmouth,,United Kingdom,Europe,,,Writer,Language,Humanities,115,28353630,246553,26.8722
+10264,Enrico Fermi,Male,1901,1954,Rome,,Italy,Europe,41.9,12.5,Physicist,Natural Sciences,Science & Technology,100,4846538,48465,26.8516
+24326,Pol Pot,Male,1925,1998,Prek Sbauv,,Cambodia,Asia,12.7,104.9,Politician,Government,Institutions,76,11681078,153698,26.8281
+9072,Jacques-Louis David,Male,1748,1825,Paris,,France,Europe,48.8567,2.3508,Painter,Fine Arts,Arts,62,5674501,91524,26.8218
+23368424,Ignatius of Loyola,Male,1491,1556,Azpeitia,,Spain,Europe,43.18194,-2.26528,Religious Figure,Religion,Institutions,67,5560397,82991,26.8165
+76370,Felix Mendelssohn-Bartholdy,Male,1809,1847,Hamburg,,Germany,Europe,53.56528,10.00139,Composer,Music,Arts,68,7394504,108743,26.8069
+33917,William the Conqueror,Male,1027,1087,Falaise,,France,Europe,49.1333,-0.36667,Nobleman,Government,Institutions,79,7178525,90867,26.8067
+15770,Jules Verne,Male,1828,1905,Nantes,,France,Europe,47.2181,-1.5528,Writer,Language,Humanities,96,22914095,238688,26.7935
+60832,Hatshepsut,Female,-1508,-1459,Other,,Egypt,Africa,26,30,Politician,Government,Institutions,57,5409146,94897,26.7436
+1239,Ashoka,Male,-304,-232,Patna,,India,Asia,,,Politician,Government,Institutions,89,5148177,57845,26.7367
+25879,Roger Bacon,Male,1220,1292,Ilchester,,United Kingdom,Europe,51.0011,-2.6825,Philosopher,Philosophy,Humanities,48,2421713,50452,26.7188
+18085095,Sneferu,Male,-2600,-2589,Other,,Unknown,Unknown,,,Politician,Government,Institutions,42,957249,22792,26.7041
+3414021,George Bush,Male,1946,2020,New Haven,CT,United States,North America,41.31,-72.92361,Politician,Government,Institutions,143,42866705,299767,26.6982
+26940,Steven Spielberg,Male,1946,2020,Cincinnati,OH,United States,North America,39.1,-84.51667,Film Director,Film And Theatre,Arts,97,29240531,301449,26.6854
+23408931,Snorri Sturluson,Male,1179,1241,Iceland,,Iceland,Europe,65,-18,Writer,Language,Humanities,53,1380290,26043,26.6718
+26308,Rudyard Kipling,Male,1865,1936,Mumbai,,India,Asia,18.975,72.82583,Writer,Language,Humanities,89,9676648,108726,26.6693
+12787,Geoffrey Chaucer,Male,1343,1400,London,,United Kingdom,Europe,51.50722,-0.1275,Writer,Language,Humanities,93,5729927,61612,26.6692
+99425,Diodorus Siculus,Male,-90,-30,Agira,,Italy,Europe,37.65,14.51667,Historian,History,Humanities,49,1230056,25103,26.6687
+319102,Ashurbanipal,Male,-685,-631,Other,,Unknown,Unknown,,,Politician,Government,Institutions,47,1303017,27724,26.6675
+30535,Theodore Roosevelt,Male,1858,1919,New York,NY,United States,North America,40.79028,-73.95972,Politician,Government,Institutions,97,24189918,249381,26.63
+85836,Erik the Red,Male,950,1003,Other,,Iceland,Europe,61,8,Explorer,Explorers,Exploration,47,2510710,53419,26.6231
+49080,Georg Ohm,Male,1789,1854,Erlangen,,Germany,Europe,49.58333,11.01667,Physicist,Natural Sciences,Science & Technology,69,3154469,45717,26.622
+42068,Freddie Mercury,Male,1946,1991,Stone Town,,Tanzania,Africa,-6.16494,39.19879,Musician,Music,Arts,75,56680942,755746,26.6178
+52487,Ivan Pavlov,Male,1849,1936,Ryazan,,Russia,Europe,54.6,39.7,Biologist,Natural Sciences,Science & Technology,70,8262195,118031,26.613
+72187,J. M. W. Turner,Male,1775,1851,Covent Garden,,United Kingdom,Europe,51.51197,-0.1228,Painter,Fine Arts,Arts,54,6107274,113098,26.6119
+12232,Gustave Eiffel,Male,1832,1923,Dijon,,France,Europe,47.2906,5.0428,Engineer,Engineering,Science & Technology,64,5250505,82039,26.6038
+12104,Guglielmo Marconi,Male,1874,1937,Bologna,,Italy,Europe,44.5075,11.35139,Inventor,Invention,Science & Technology,84,6016312,71623,26.5764
+67377,Ho Chi Minh,Male,1890,1969,Nghe An Province,,Vietnam,Asia,18.88333,105.31667,Politician,Government,Institutions,87,13635603,156731,26.574
+16121,Joshua,Male,-1355,-1245,Other,,Egypt,Africa,,,Religious Figure,Religion,Institutions,41,3819284,93153,26.5633
+12804,Grigori Rasputin,Male,1869,1916,Pokrovskoye,,Russia,Europe,57.2425,66.79056,Public Worker,Government,Institutions,61,17481595,286584,26.5615
+50237,Robert Boyle,Male,1627,1691,Lismore,,Ireland,Europe,52.139,-7.933,Chemist,Natural Sciences,Science & Technology,69,4517660,65473,26.5609
+243471,Nimrod (if existed),Male,-3500,-3400,Other,,Unknown,Unknown,,,Religious Figure,Religion,Institutions,38,3573828,94048,26.5561
+21476708,Sargon of Akkad,Male,-2360,-2284,Azupiranu,,Iraq,Asia,,,Politician,Government,Institutions,46,2144427,46618,26.5535
+18933396,Augusto Pinochet,Male,1915,2006,Valparaíso,,Chile,South America,-33.05,-71.61667,Politician,Government,Institutions,76,9359759,123155,26.5202
+49644,Jean Sibelius,Male,1865,1957,Hämeenlinna,,Finland,Europe,61,24.46667,Composer,Music,Arts,66,3382227,51246,26.5038
+12307,Gustave Flaubert,Male,1821,1880,Rouen,,France,Europe,49.44,1.1,Writer,Language,Humanities,68,6467167,95105,26.5036
+105931,Lady Godiva,Female,990,1067,Coventry,,United Kingdom,Europe,52.6,-1.6,Social Activist,Activism,Public Figure,41,5298269,129226,26.4919
+11955,George H. W. Bush,Male,1924,2018,Boston,MA,United States,North America,42.25,-71.06667,Politician,Government,Institutions,109,21361900,195981,26.4172
+13509,H. P. Lovecraft,Male,1890,1937,Providence,RI,United States,North America,41.82361,-71.42222,Writer,Language,Humanities,62,11855235,191213,26.3853
+16555,John the Evangelist,Male,15,100,Jerusalem,,Israel,Asia,31.78333,35.21667,Writer,Language,Humanities,28,2209312,78904,26.3811
+2241,Antonio Salieri,Male,1750,1825,Legnago,,Italy,Europe,45.19444,11.3125,Composer,Music,Arts,52,4543173,87369,26.3772
+16844,Kofi Annan,Male,1938,2018,Kumasi,,Ghana,Africa,6.66667,-1.61667,Diplomat,Government,Institutions,104,6811032,65491,26.3496
+3747,Bill Gates,Male,1955,2020,Seattle,WA,United States,North America,47.60972,-122.33306,Businessperson,Business,Business & Law,123,54216010,440781,26.3477
+498263,Thutmose I,Male,-1520,-1493,Other,,Unknown,Unknown,,,Politician,Government,Institutions,39,734919,18844,26.347
+20796,Malcolm X,Male,1925,1965,Omaha,NE,United States,North America,41.31667,-95.98333,Social Activist,Activism,Public Figure,70,25768520,368122,26.3226
+338378,Gaozu of Han,Male,-255,-195,Pei County,,China,Asia,,,Politician,Government,Institutions,29,2544633,87746,26.3039
+3356,Bill Clinton,Male,1946,2020,Hope,AR,United States,North America,33.66778,-93.59,Politician,Government,Institutions,118,31143787,263930,26.273
+44656,Domenico Scarlatti,Male,1685,1757,Naples,,Italy,Europe,40.845,14.25833,Composer,Music,Arts,52,1977649,38032,26.2628
+10277,Ennio Morricone,Male,1928,2020,Rome,,Italy,Europe,41.9,12.5,Composer,Music,Arts,54,7516230,139189,26.2621
+146803,Leif Ericson,Male,970,1020,Other,,Iceland,Europe,65,-18,Explorer,Explorers,Exploration,70,4615953,65942,26.2478
+27069,Søren Kierkegaard,Male,1813,1855,Copenhagen,,Denmark,Europe,55.67611,12.56833,Philosopher,Philosophy,Humanities,87,10385426,119373,26.2444
+152833,Sitting Bull,Male,1831,1890,Grand River,ND,United States,North America,,,Politician,Government,Institutions,69,5806146,84147,26.2439
+872,Akira Kurosawa,Male,1910,1998,Tokyo,,Japan,Asia,35.6,139.73333,Film Director,Film And Theatre,Arts,102,9833860,96410,26.2358
+24509,Pierre Curie,Male,1859,1906,Paris,,France,Europe,48.8567,2.3508,Physicist,Natural Sciences,Science & Technology,79,3215977,40709,26.2306
+8520,Dmitri Shostakovich,Male,1906,1975,Saint Petersburg,,Russia,Europe,59.95,30.3,Composer,Music,Arts,62,5642495,91008,26.2249
+17902,Leonhard Euler,Male,1707,1983,Basel,,Switzerland,Europe,47.56667,7.6,Mathematician,Math,Science & Technology,108,13495418,124958,26.2223
+9962,Eleanor of Aquitaine,Female,1122,1204,Bordeaux,,France,Europe,44.84,-0.58,Companion,Companions,Public Figure,46,4570041,99349,26.221
+339091,Emperor Wu of Han,Male,-156,-88,Xi'an,,China,Asia,34.26667,108.9,Politician,Government,Institutions,45,1411912,31376,26.2175
+93506,Artaxerxes II of Persia,Male,-436,-356,Other,,Unknown,Unknown,,,Politician,Government,Institutions,37,482038,13028,26.2163
+17562,Leni Riefenstahl,Female,1902,2003,Berlin,,Germany,Europe,52.51667,13.38333,Film Director,Film And Theatre,Arts,59,4454010,75492,26.2135
+80900,Ahmose I,Male,-1560,-1525,Thebes,,Egypt,Africa,25.72056,32.61028,Politician,Government,Institutions,41,1024024,24976,26.1914
+7955693,Archduke Franz Ferdinand of Austria,Male,1863,1914,Graz,,Austria,Europe,47.06667,15.43333,Nobleman,Government,Institutions,70,7902362,112891,26.1885
+15825,John Steinbeck,Male,1902,1968,Salinas,CA,United States,North America,36.67778,-121.65556,Writer,Language,Humanities,78,10127920,129845,26.1784
+13066,George Gershwin,Male,1898,1937,New York,NY,United States,North America,40.69278,-73.99028,Composer,Music,Arts,59,5992072,101561,26.1782
+38367,Oskar Schindler,Male,1908,1974,Svitavy,,Czech Republic,Europe,49.75556,16.46944,Businessperson,Business,Business & Law,51,13227107,259355,26.1743
+63747,Muhammad Ali,Male,1942,2016,Louisville,KY,United States,North America,38.25,-85.76667,Boxer,Individual Sports,Sports,84,36149628,430353,26.1714
+51487,Salvador Allende,Male,1908,1973,Valparaíso,,Chile,South America,-33.05,-71.61667,Politician,Government,Institutions,71,7470018,105212,26.1682
+44059,Harrison Ford,Male,1942,2020,Chicago,IL,United States,North America,41.83694,-87.68472,Actor,Film And Theatre,Arts,63,23806375,377879,26.1672
+21247,Neil Armstrong,Male,1930,2012,Auglaize County,OH,United States,North America,40.56,-84.22,Astronaut,Explorers,Exploration,121,27740982,229264,26.1661
+53711,Antoine Henri Becquerel,Male,1852,1908,Paris,,France,Europe,48.8567,2.3508,Physicist,Natural Sciences,Science & Technology,72,2883893,40054,26.1656
+197386,Padmasambhava,Male,700,800,Swat District,,Pakistan,Asia,35.38333,72.18333,Philosopher,Philosophy,Humanities,36,1060913,29470,26.1618
+48927,Camille Saint-Saëns,Male,1835,1921,Paris,,France,Europe,48.8567,2.3508,Composer,Music,Arts,51,4346313,85222,26.1542
+356714,Herod Antipas,Male,-20,39,Judea,,Israel,Asia,31.69889,35.30639,Politician,Government,Institutions,38,1856995,48868,26.1044
+5698,Charles Babbage,Male,1791,1871,Teignmouth,,United Kingdom,Europe,50.5516,-3.48866,Inventor,Invention,Science & Technology,67,7274811,108579,26.1034
+25767401,Joseph Fourier,Male,1768,1830,Auxerre,,France,Europe,47.7986,3.5672,Mathematician,Math,Science & Technology,86,1786471,20773,26.0915
+289962,Smenkhkare,Male,-1350,-1334,Other,,Unknown,Unknown,,,Politician,Government,Institutions,35,682410,19497,26.0877
+38938,John the Apostle,Male,6,100,Galilee,,Israel,Asia,32.91,35.631,Religious Figure,Religion,Institutions,45,3128673,69526,26.0863
+87793,Joseph Louis Lagrange,Male,1736,1813,Turin,,Italy,Europe,45.06667,7.7,Mathematician,Math,Science & Technology,62,2149981,34677,26.0855
+140955,Cai Lun,Male,50,121,Guiyang,,China,Asia,26.65,106.63333,Inventor,Invention,Science & Technology,40,719488,17987,26.0833
+12562,Gregor Mendel,Male,1822,1884,Hynčice,,Czech Republic,Europe,49.61889,17.83528,Biologist,Natural Sciences,Science & Technology,79,20214907,255885,26.0827
+237523,Pocahontas,Female,1595,1617,Werowocomoco,VA,United States,North America,,,Diplomat,Government,Institutions,40,15118314,377958,26.0749
+20960029,Emperor Meiji,Male,1852,1912,Kyoto,,Japan,Asia,35.01167,135.76833,Politician,Government,Institutions,49,5758182,117514,26.0284
+75847,Nikolai Rimsky-Korsakov,Male,1844,1908,Tikhvin,,Russia,Europe,59.65,33.53333,Composer,Music,Arts,60,3163113,52719,26.0228
+18639,Lucrezia Borgia,Female,1480,1519,Subiaco,,Italy,Europe,41.93333,13.1,Nobleman,Government,Institutions,40,9053077,226327,26.0223
+48740,Henri Poincaré,Male,1854,1912,Nancy,,France,Europe,48.6936,6.1846,Mathematician,Math,Science & Technology,63,2831983,44952,26.0215
+57634,Carl Orff,Male,1895,1982,Munich,,Germany,Europe,48.13333,11.56667,Composer,Music,Arts,45,3720961,82688,26.0181
+231443,Aspasia,Female,-470,-400,Miletus,,Turkey,Asia,37.53028,27.27833,Companion,Companions,Public Figure,32,1098835,34339,26.0177
+186300,John D. Rockefeller,Male,1839,1937,Richford,NY,United States,North America,42.35556,-76.20083,Businessperson,Business,Business & Law,53,16132232,304382,26.0123
+7504,Cesare Borgia,Male,1475,1507,Papal States,,Italy,Europe,42.82111,12.60278,Military Personnel,Military,Institutions,40,8045266,201132,26.0121
+28354,Samuel,Male,-1100,-1010,Other,,Unknown,Unknown,,,Religious Figure,Religion,Institutions,40,1746657,43666,25.9991
+24472,Paul Cézanne,Male,1839,1906,Aix-en-Provence,,France,Europe,43.5263,5.44543,Painter,Fine Arts,Arts,86,14017943,162999,25.9988
+954,Albert Speer,Male,1905,1981,Mannheim,,Germany,Europe,49.48889,8.46917,Architect,Design,Arts,52,7724852,148555,25.9987
+628,Aldous Huxley,Male,1894,1963,Godalming,,United Kingdom,Europe,51.185,-0.61,Writer,Language,Humanities,62,9268920,149499,25.9966
+42001,Anton van Leeuwenhoek,Male,1632,1723,Delft,,Netherlands,Europe,52.01667,4.36667,Biologist,Natural Sciences,Science & Technology,68,4806421,70683,25.994
+37899,Cyprian,Male,200,258,Tunis,,Tunisia,Africa,36.85806,10.33083,Religious Figure,Religion,Institutions,41,1105601,26966,25.9911
+12457406,Fatima bint Muhammad,Female,605,632,Mecca,,Saudi Arabia,Asia,21.41667,39.81667,Companion,Companions,Public Figure,47,2525462,53733,25.9811
+18995,Martin Scorsese,Male,1942,2020,New York,NY,United States,North America,40.75,-73.86667,Film Director,Film And Theatre,Arts,66,17289562,261963,25.9699
+453778,Atahualpa,Male,1497,1533,Quito,,Ecuador,South America,-13.525,-71.97222,Politician,Government,Institutions,43,3244572,75455,25.939
+62116,Napoleon II of France,Male,1811,1832,Paris,,France,Europe,48.86222,2.3325,Politician,Government,Institutions,51,2573051,50452,25.9348
+12707,Guy Fawkes,Male,1570,1606,York,,United Kingdom,Europe,53.95833,-1.08028,Military Personnel,Military,Institutions,46,20778443,451705,25.9262
+20747,Moctezuma II,Male,1466,1520,Tenochtitlan,,Mexico,North America,,,Politician,Government,Institutions,48,3636304,75756,25.9261
+73874,Justinian II,Male,669,711,Istanbul,,Turkey,Asia,41.01224,28.97602,Politician,Government,Institutions,44,623774,14177,25.9238
+155736,Truman Capote,Male,1924,1984,New Orleans,LA,United States,North America,29.95,-90.06667,Writer,Language,Humanities,54,9254606,171382,25.9214
+38203876,Rebecca,Female,-3500,-3370,Other,,Unknown,Unknown,,,Religious Figure,Religion,Institutions,32,1456125,45504,25.906
+53029,Muammar al-Gaddafi,Male,1942,2011,Qasr Abu Hadi,,Libya,Africa,,,Politician,Government,Institutions,111,29470548,265500,25.9006
+4517,Boudica,Female,30,61,South Wales,,United Kingdom,Europe,51.48333,-3.18333,Politician,Government,Institutions,43,4517346,105055,25.8992
+18633,Lorenzo de' Medici,Male,1449,1492,Florence,,Italy,Europe,43.78333,11.25,Politician,Government,Institutions,47,3737202,79515,25.8699
+144936,Jackie Chan,Male,1954,2020,Victoria Peak,,,Asia,22.27547,114.14383,Actor,Film And Theatre,Arts,81,44209817,545800,25.8672
+23348,Pytheas,Male,-380,-285,Marseille,,France,Europe,43.2964,5.37,Explorer,Explorers,Exploration,40,693417,17335,25.8556
+205370,Tariq ibn-Ziyad,Male,670,720,Algeria,,Algeria,Africa,,,Military Personnel,Military,Institutions,39,1617507,41475,25.8554
+546077,Amenhotep II,Male,-1450,-1397,Memphis,,Egypt,Africa,29.84472,31.25083,Politician,Government,Institutions,33,642264,19463,25.8538
+549418,Thutmose IV,Male,-1420,-1388,Other,,Unknown,Unknown,,,Politician,Government,Institutions,34,520904,15321,25.8526
+67025,Arnold Schoenberg,Male,1874,1951,Leopoldstadt,,Austria,Europe,48.21028,16.41222,Composer,Music,Arts,50,4574793,91496,25.8474
+23909513,Isabella of Castile,Female,1451,1504,Madrigal de las Altas Torres,,Spain,Europe,41.08333,-5,Politician,Government,Institutions,66,7649221,115897,25.8436
+30273,T. S. Eliot,Male,1888,1965,St. Louis,MO,United States,North America,38.62722,-90.19778,Writer,Language,Humanities,78,8571820,109895,25.8113
+3078531,Miltiades the Younger,Male,-550,-489,Athens,,Greece,Europe,37.96667,23.71667,Military Personnel,Military,Institutions,33,644382,19527,25.802
+16736,Kurt Gödel,Male,1906,1978,Brno,,Czech Republic,Europe,49.2,16.61667,Mathematician,Math,Science & Technology,72,3336679,46343,25.8016
+33971,William Herschel,Male,1738,1822,Hanover,,Germany,Europe,52.36667,9.71667,Astronomer,Natural Sciences,Science & Technology,69,2164443,31369,25.7789
+19179497,Mithridates VI of Pontus,Male,-132,-63,Sinop,,Turkey,Asia,42.03333,35.15,Politician,Government,Institutions,43,1129422,26266,25.7764
+32817,Vladimir Putin,Male,1952,2020,Saint Petersburg,,Russia,Europe,59.95,30.3,Politician,Government,Institutions,131,23717139,181047,25.7648
+6260,Claude Debussy,Male,1862,1918,Saint-Germain-en-Laye,,France,Europe,48.8989,2.0938,Composer,Music,Arts,67,12470303,186124,25.7622
+61410,Louis Braille,Male,1809,1852,Coupvray,,France,Europe,48.8925,2.7939,Inventor,Invention,Science & Technology,59,3143056,53272,25.7614
+447030,Appian,Male,95,165,Alexandria,,Egypt,Africa,31.2,29.91667,Writer,Language,Humanities,41,632335,15423,25.761
+13010,Gavrilo Princip,Male,1894,1918,Obljaj,,Bosnia And Herzegovina,Europe,,,Extremist,Outlaws,Public Figure,64,3951171,61737,25.7103
+9911,Ezekiel,Male,-622,-569,Jerusalem,,Israel,Asia,31.78333,35.21667,Religious Figure,Religion,Institutions,37,2630881,71105,25.709
+157272,Alexandre Dumas,Male,1802,1870,Villers-Cotterêts,,France,Europe,49.26,3.0906,Writer,Language,Humanities,78,6923202,88759,25.7085
+25867,Richard Dawkins,Male,1941,2020,Nairobi,,Kenya,Africa,-1.28333,36.81667,Biologist,Natural Sciences,Science & Technology,68,11313799,166379,25.708
+13765,Henry Kissinger,Male,1923,2020,Fürth,,Germany,Europe,49.46667,11,Politician,Government,Institutions,64,10487989,163875,25.7079
+54533,Lyndon B. Johnson,Male,1908,1973,Stonewall,TX,United States,North America,30.24,-98.66,Politician,Government,Institutions,94,15582877,165775,25.7071
+12216,Georg Cantor,Male,1845,1918,Saint Petersburg,,Russia,Europe,59.95,30.3,Mathematician,Math,Science & Technology,63,2739307,43481,25.7066
+26202,Ralph Waldo Emerson,Male,1803,1882,Boston,MA,United States,North America,42.35806,-71.06361,Writer,Language,Humanities,66,8427739,127693,25.6931
+5771,Christopher Marlowe,Male,1564,1593,Canterbury,,United Kingdom,Europe,51.275,1.087,Writer,Language,Humanities,54,3873400,71730,25.6912
+33642554,Scipio Africanus,Male,-236,-183,Rome,,Italy,Europe,41.9,12.5,Politician,Government,Institutions,48,3872247,80672,25.673
+69418,Tiberius Gracchus,Male,-168,-133,Rome,,Italy,Europe,41.9,12.5,Politician,Government,Institutions,32,1206237,37695,25.6625
+34226,Yuri Gagarin,Male,1934,1968,Klushino,,Russia,Europe,55.67083,35.05333,Astronaut,Explorers,Exploration,119,15173213,127506,25.6597
+20238168,"Tenzin Gyatso, 14th Dalai Lama",Male,1935,2020,Taktser,,China,Asia,36.37808,101.86589,Religious Figure,Religion,Institutions,76,8165642,107443,25.6513
+40501,Canute the Great,Male,990,1035,Other,,Denmark,Europe,55.72,12.57,Politician,Government,Institutions,54,2319498,42954,25.6232
+204310,Xuanzang,Male,602,664,Henan,,China,Asia,33.9,113.5,Explorer,Explorers,Exploration,35,1593729,45535,25.622
+33783,Wernher von Braun,Male,1912,1977,Wyrzysk,,Poland,Europe,53.15611,17.26639,Engineer,Engineering,Science & Technology,57,6520009,114386,25.6199
+27681,Sergei Prokofiev,Male,1891,1953,Krásné,,Ukraine,Europe,48.14,37.74,Composer,Music,Arts,51,4634543,90873,25.6189
+102338,Henry Cavendish,Male,1731,1810,Nice,,France,Europe,43.7034,7.2663,Physicist,Natural Sciences,Science & Technology,55,1900294,34551,25.6148
+10410626,John Adams,Male,1735,1826,Boston,MA,United States,North America,42.206,-71.005,Politician,Government,Institutions,104,15321190,147319,25.6142
+64740,Jacob Bernoulli,Male,1654,1705,Basel,,Switzerland,Europe,47.56667,7.6,Mathematician,Math,Science & Technology,51,1058620,20757,25.547
+20127,M. C. Escher,Male,1898,1972,Leeuwarden,,Netherlands,Europe,53.2,5.78333,Artist,Fine Arts,Arts,52,9460545,181934,25.5468
+70369,Cyrano de Bergerac,Male,1619,1655,Paris,,France,Europe,48.8567,2.3508,Writer,Language,Humanities,36,3324774,92355,25.5385
+16224,Jonah,Male,-800,-700,Gath-Helper,,Israel,Asia,,,Religious Figure,Religion,Institutions,31,2688127,86714,25.5275
+15781,Jorge Luis Borges,Male,1899,1986,Buenos Aires,,Argentina,South America,-34.60333,-58.38167,Writer,Language,Humanities,101,18357830,181761,25.5258
+14995351,Michael Jackson,Male,1958,2009,Gary,IN,United States,North America,41.59556,-87.34528,Musician,Music,Arts,147,145250649,988100,25.5247
+33925,William Wordsworth,Male,1770,1850,Cockermouth,,United Kingdom,Europe,54.6613,-3.362,Writer,Language,Humanities,67,6732890,100491,25.5146
+170987,Chrétien de Troyes,Male,1100,1191,Troyes,,France,Europe,48.2997,4.0792,Writer,Language,Humanities,34,1729542,50869,25.5111
+43282,Leonard Bernstein,Male,1918,1990,Lawrence,MA,United States,North America,42.70694,-71.16361,Composer,Music,Arts,48,4973004,103604,25.5031
+157994,Isabel Allende,Female,1942,2020,Lima,,Peru,South America,-12.04333,-77.02833,Writer,Language,Humanities,54,5397967,99962,25.5017
+20584,Morgan Freeman,Male,1937,2020,Memphis,TN,United States,North America,35.11737,-89.97107,Actor,Film And Theatre,Arts,66,28543488,432477,25.4894
+608209,Xun Zi,Male,-310,-235,Other,,Unknown,Unknown,,,Philosopher,Philosophy,Humanities,28,705083,25182,25.459
+608209,Xun Zi (Alt),Male,-314,-217,Other,,Unknown,Unknown,,,Philosopher,Philosophy,Humanities,28,705083,25182,25.459
+25523,Richard Feynman,Male,1918,1988,New York,NY,United States,North America,40.79028,-73.95972,Physicist,Natural Sciences,Science & Technology,76,8621012,113434,25.4484
+11857,George Lucas,Male,1944,2020,Modesto,CA,United States,North America,37.66139,-120.99444,Film Director,Film And Theatre,Arts,78,11639480,149224,25.4477
+809990,Ankhesenpaaten,Female,-1348,-1323,Thebes,,Egypt,Africa,25.72056,32.61028,Companion,Companions,Public Figure,31,1021436,32950,25.4449
+33130,Werner Heisenberg,Male,1901,1976,Würzburg,,Germany,Europe,49.78333,9.93333,Physicist,Natural Sciences,Science & Technology,76,7838972,103144,25.4437
+16455,John Keats,Male,1795,1821,Moorgate,,United Kingdom,Europe,51.51794,-0.08849,Writer,Language,Humanities,61,7132910,116933,25.4345
+147995,Marvin Gaye,Male,1939,1984,"Washington, D.C.",,United States,North America,,,Singer,Music,Arts,40,11984410,299610,25.4341
+133392,Johann Strauss II,Male,1825,1899,Vienna,,Austria,Europe,48.2025,16.34806,Composer,Music,Arts,61,3059753,50160,25.4315
+20502020,Percy Bysshe Shelley,Male,1792,1822,Horsham,,United Kingdom,Europe,51.062,-0.325,Writer,Language,Humanities,60,5206990,86783,25.4283
+251592,Georges Pompidou,Male,1911,1974,Montboudif,,France,Europe,45.3722,2.7322,Politician,Government,Institutions,82,3112272,37955,25.4277
+19718837,Kim Il-sung,Male,1912,1994,Pyongyang,,North Korea,Asia,39.01944,125.73806,Politician,Government,Institutions,76,11122397,146347,25.4191
+33684,William Butler Yeats,Male,1865,1939,Sandymount,,Ireland,Europe,53.3252,-6.2069,Writer,Language,Humanities,74,3108838,42011,25.4142
+33684,Jack Butler Yeats,Male,1871,1957,Sandymount,,Ireland,Europe,0,0,Painter,Fine Arts,Arts,74,3108838,42011,25.4142
+1927744,Senusret III,Male,-1900,-1839,Other,,Unknown,Unknown,,,Politician,Government,Institutions,30,400971,13366,25.4138
+24742,Paul Dirac,Male,1902,1984,Bristol,,United Kingdom,Europe,51.45,-2.58333,Physicist,Natural Sciences,Science & Technology,66,2911356,44111,25.398
+83502,Ernst Röhm,Male,1887,1934,Munich,,Germany,Europe,48.13333,11.56667,Military Personnel,Military,Institutions,44,4214191,95777,25.3884
+24955,Polycarp,Male,69,155,Smyrna,,Turkey,Asia,38.41861,27.13917,Physician,Medicine,Science & Technology,39,1186652,30427,25.3876
+21210,Niels Henrik David Bohr,Male,1885,1962,Copenhagen,,Denmark,Europe,55.67611,12.56833,Physicist,Natural Sciences,Science & Technology,100,17087845,170878,25.3759
+157653,Anna Komnene,Female,1083,1153,Istanbul,,Turkey,Asia,41.01224,28.97602,Writer,Language,Humanities,45,494767,10995,25.3758
+16307,Jackson Pollock,Male,1912,1956,Cody,WY,United States,North America,44.52333,-109.05722,Painter,Fine Arts,Arts,79,13358067,169089,25.3751
+38965,Cary Grant,Male,1904,1986,Horfield,,United Kingdom,Europe,51.49,-2.5805,Actor,Film And Theatre,Arts,57,12078262,211899,25.362
+33972,Wolfgang Pauli,Male,1900,1958,Vienna,,Austria,Europe,48.2,16.36667,Physicist,Natural Sciences,Science & Technology,63,1793268,28465,25.3155
+572862,Henri Rousseau,Male,1844,1910,Laval,,France,Europe,48.0733,-0.7689,Artist,Fine Arts,Arts,48,3338818,69559,25.3077
+34126,William Golding,Male,1911,1993,Newquay,,United Kingdom,Europe,50.412,-5.0757,Writer,Language,Humanities,68,2849288,41901,25.2827
+185510,Seneca the Elder,Male,-54,39,Córdoba,,Spain,Europe,37.88333,-4.76667,Writer,Language,Humanities,30,528106,17604,25.2574
+5042706,Al Gore,Male,1948,2020,"Washington, D.C.",,United States,North America,,,Politician,Government,Institutions,85,12213647,143690,25.251
+426381,George Best,Male,1946,2005,Belfast,,United Kingdom,Europe,54.597,-5.93,Soccer Player,Team Sports,Sports,51,7456666,146209,25.2373
+182966,Tigranes the Great,Male,-140,-55,Other,,Unknown,Unknown,,,Politician,Government,Institutions,37,633163,17113,25.2161
+5813,C. S. Lewis,Male,1898,1963,Belfast,,United Kingdom,Europe,54.597,-5.93,Writer,Language,Humanities,60,10920003,182000,25.2159
+200945,Arses of Persia,Male,-360,-336,Other,,Unknown,Unknown,,,Politician,Government,Institutions,29,277001,9552,25.1915
+73009,Saxo Grammaticus,Male,1160,1220,Zealand,,Denmark,Europe,55.72,12.57,Historian,History,Humanities,34,481601,14165,25.1865
+23005,Philip K. Dick,Male,1928,1982,Chicago,IL,United States,North America,41.83694,-87.68472,Writer,Language,Humanities,48,6911707,143994,25.1814
+221765,Geronimo,Male,1829,1909,Gila River,NM,United States,North America,,,Politician,Government,Institutions,51,7923276,155358,25.1411
+245104,Gaius Gracchus,Male,-159,-121,Other,,Unknown,Unknown,,,Politician,Government,Institutions,27,802950,29739,25.1408
+63390,Meryl Streep,Female,1949,2020,Summit,NJ,United States,North America,40.71562,-74.36468,Actor,Film And Theatre,Arts,77,25060416,325460,25.1361
+27885687,Mary Shelley,Female,1797,1851,London,,United Kingdom,Europe,51.53097,-0.1315,Writer,Language,Humanities,65,7914968,121769,25.1073
+53242,Robin Williams,Male,1951,2014,Chicago,IL,United States,North America,41.83694,-87.68472,Actor,Film And Theatre,Arts,60,22886354,381439,25.0834
+795108,Ramesses IV,Male,-1200,-1149,Other,,Unknown,Unknown,,,Politician,Government,Institutions,28,347305,12404,25.0754
+10085,Edward Elgar,Male,1857,1934,Broadheath,,United Kingdom,Europe,52.20917,-2.27323,Composer,Music,Arts,46,2815636,61209,25.075
+4285,Bodhidharma,Male,500,600,Kanchipuram,,India,Asia,21,78,Philosopher,Philosophy,Humanities,41,5612797,136897,25.0666
+382203,Diadumenian,Male,208,218,Other,,Unknown,Unknown,,,Politician,Government,Institutions,37,184238,4979,25.0658
+16861,Kurt Vonnegut,Male,1922,2007,Indianapolis,IN,United States,North America,39.791,-86.148,Writer,Language,Humanities,57,8849252,155250,25.0643
+39034,Robert Oppenheimer,Male,1904,1967,New York,NY,United States,North America,40.7127,-74.0059,Physicist,Natural Sciences,Science & Technology,56,7401788,132175,25.0632
+214233,Nina Simone,Female,1933,2003,Tryon,NC,United States,North America,35.20889,-82.23889,Singer,Music,Arts,46,7993078,173763,25.0609
+3875,"Benjamin Disraeli, 1st Earl of Beaconsfield",Male,1804,1881,London,,United Kingdom,Europe,51.50722,-0.1275,Politician,Government,Institutions,61,3817885,62588,25.0547
+14937,Italo Calvino,Male,1923,1985,Santiago de las Vegas,,Cuba,North America,22.97778,-82.37778,Writer,Language,Humanities,48,4510179,93962,25.0523
+306436,Ptolemy XIV of Egypt,Male,-60,-44,Other,,Unknown,Unknown,,,Politician,Government,Institutions,27,276684,10248,25.0032
+159275,Emily Dickinson,Female,1830,1886,Amherst,MA,United States,North America,42.367,-72.517,Writer,Language,Humanities,61,7081612,116092,24.9948
+1208,Alan Turing,Male,1912,1954,Maida Vale,,United Kingdom,Europe,51.5274,-0.1899,Computer Scientist,Computer Science,Science & Technology,108,17997811,166646,24.9892
+9839,Ezra,Male,-480,-440,Babylon,,Iraq,Asia,32.53639,44.42083,Religious Figure,Religion,Institutions,35,1459168,41691,24.9846
+26458,Rosa Parks,Female,1913,2005,Tuskegee,AL,United States,North America,32.43151,-85.70678,Social Activist,Activism,Public Figure,71,17724184,249636,24.9833
+151855,Billy the Kid,Male,1859,1881,New York,NY,United States,North America,40.79028,-73.95972,Mafioso,Outlaws,Public Figure,34,9863289,290097,24.9833
+875991,Sobekneferu,Female,-1850,-1802,Other,,Unknown,Unknown,,,Politician,Government,Institutions,27,223292,8270,24.8061
+161968,Minamoto no Yoritomo,Male,1147,1199,Nagoya,,Japan,Asia,,,Politician,Government,Institutions,32,3603281,112603,24.7075
+14317,Hergé,Male,1907,1983,Etterbeek,,Belgium,Europe,50.83333,4.38333,Comic Artist,Design,Arts,50,2997849,59957,24.5425
+148185,Dmitry Donskoy,Male,1350,1389,Moscow,,Russia,Europe,55.75,37.61667,Nobleman,Government,Institutions,40,917156,22929,24.4813
+104943,Charles XI of Sweden,Male,1655,1697,Tre Kronor,,Sweden,Europe,59.32667,18.07167,Politician,Government,Institutions,38,881815,23206,24.4805
+77475,Cyrus the Younger,Male,-420,-401,Other,,Unknown,Unknown,,,Politician,Government,Institutions,29,342960,11826,24.4803
+620568,Ashur-nasir-pal II,Male,-900,-859,Other,,Unknown,Unknown,,,Politician,Government,Institutions,32,304167,9505,24.4794
+44191,D. H. Lawrence,Male,1885,1930,Eastwood,,United Kingdom,Europe,53.0175,-1.306,Writer,Language,Humanities,51,4156637,81503,24.4791
+160716,Quintus Sertorius,Male,-123,-72,Norcia,,Italy,Europe,42.8,13.1,Politician,Government,Institutions,27,465105,17226,24.4773
+3992,Bram Stoker,Male,1847,1912,Dublin,,Ireland,Europe,53.365,-6.21,Writer,Language,Humanities,61,11446300,187644,24.4769
+25662,Robert Falcon Scott,Male,1868,1912,Plymouth,,United Kingdom,Europe,50.37139,-4.14222,Explorer,Explorers,Exploration,52,4044959,77788,24.3313
+730423,Ish-bosheth,Male,-1047,-1010,Other,,Unknown,Unknown,,,Politician,Government,Institutions,26,290366,11168,24.3307
+316728,Nicodemus,Male,-40,40,Other,,Unknown,Unknown,,,Religious Figure,Religion,Institutions,28,1387006,49536,24.3122
+92223,Arsinoe III of Egypt,Female,-245,-204,Other,,Unknown,Unknown,,,Politician,Government,Institutions,26,126242,4855,24.3114
+481604,Chanakya,Male,-350,-283,India,,India,Asia,21,78,Philosopher,Philosophy,Humanities,70,2651616,37880,24.3092
+299489,D'Artagnan,Male,1611,1673,Lupiac,,France,Europe,43.68,0.18,Military Personnel,Military,Institutions,27,1552949,57517,24.3058
+1070870,Hattusili III,Male,-1260,-1237,Other,,Unknown,Unknown,,,Politician,Government,Institutions,26,178358,6860,24.3049
+1102000,Shen Kuo,Male,1031,1095,Hangzhou,,China,Asia,30.25,120.16667,Philosopher,Philosophy,Humanities,30,517433,17248,24.3046
+92228,Seleucus III Ceraunus,Male,-243,-223,Other,,Unknown,Unknown,,,Politician,Government,Institutions,27,115956,4295,24.3045
+15919,John Wilkes Booth,Male,1838,1865,Bel Air,MD,United States,North America,39.53667,-76.34833,Extremist,Outlaws,Public Figure,44,8568781,194745,24.3041
+169472,Sextus Julius Frontinus,Male,40,103,Other,,Unknown,Unknown,,,Writer,Language,Humanities,27,228318,8456,24.3024
+569567,Yuri Dolgorukiy,Male,1099,1157,Other,,Unknown,Unknown,,,Politician,Government,Institutions,30,644299,21477,24.2289
+5604422,Pāṇini,Male,-500,-300, Khyber Pakhtunkhwa,,Pakistan,Asia,33.9,72.23333,Linguist,Language,Humanities,40,721215,18030,24.2284
+4313,Benjamin,Male,-1000,-900,Canaan,,Israel,Asia,,,Religious Figure,Religion,Institutions,27,1353462,50128,24.2254
+105949,Al-Mansur,Male,712,775,Other,,Unknown,Unknown,,,Religious Figure,Religion,Institutions,30,841824,28061,24.2221
+37662,Pope Leo II,Male,611,683,Sicily,,Italy,Europe,37.5,14,Religious Figure,Religion,Institutions,50,240172,4803,24.2213
+231734,Tenzing Norgay,Male,1914,1986,Khumbu,,Nepal,Asia,,,Mountaineer,Individual Sports,Sports,63,2546086,40414,23.7334
+3137245,Nehemiah,Male,-500,-400,Babylon,,Iraq,Asia,32.53639,44.42083,Religious Figure,Religion,Institutions,26,940432,36170,23.6705
+1576149,"Cosimo II de' Medici, Grand Duke of Tuscany",Male,1590,1621,Florence,,Italy,Europe,43.78333,11.25,Nobleman,Government,Institutions,26,181109,6966,23.0912
+171313,Jan van Riebeeck,Male,1619,1677,Culemborg,,Netherlands,Europe,51.95,5.23333,Explorer,Explorers,Exploration,29,664233,22905,23.0126
+842599,Antipope Ursicinus,Male,300,384,Other,,Unknown,Unknown,,,Religious Figure,Religion,Institutions,27,87994,3259,22.9122
+5048,Brigham Young,Male,1801,1877,Whitingham,VT,United States,North America,42.78333,-72.85,Religious Figure,Religion,Institutions,36,2533812,70384,22.9056
+946750,Jamal al-Din al-Afghani,Male,1838,1897,Asadabad,,Afghanistan,Asia,34.87417,71.15278,Social Activist,Activism,Public Figure,29,686275,23665,22.9017
+16277,Jack Ruby,Male,1911,1967,Chicago,IL,United States,North America,41.83694,-87.68472,Mafioso,Outlaws,Public Figure,38,8761831,230575,22.901
+24194,Pope Gregory III,Male,731,741,Syria,,Syria,Asia,33.5,36.3,Religious Figure,Religion,Institutions,52,655153,12599,22.8484
+163628,John Hume,Male,1937,2020,Derry,,United Kingdom,Europe,54.9958,-7.3074,Politician,Government,Institutions,38,585083,15397,22.7781
+58702,John Glenn,Male,1921,2016,Cambridge,OH,United States,North America,40.025,-81.58667,Astronaut,Explorers,Exploration,43,4300563,100013,22.6871
+6873934,Steve Irwin,Male,1962,2006,Essendon,,Australia,Oceania,-37.749,144.912,Presenter,Media Personality,Public Figure,57,10859234,190513,22.1162
+50920,Seamus Heaney,Male,1939,2013,Castledawson,,United Kingdom,Europe,54.778,-6.556,Writer,Language,Humanities,59,2511998,42576,21.8919
+36592,Gus Grissom,Male,1926,1967,Mitchell,IN,United States,North America,38.73389,-86.47444,Astronaut,Explorers,Exploration,28,2083721,74419,21.8879
+97509,Michael Collins,Male,1890,1922,Clonakilty,,Ireland,Europe,51.62194,-8.88639,Politician,Government,Institutions,47,356846,7592,21.8349
+642751,Li Yu,Male,1610,1680,Rugao,,China,Asia,35,103,Writer,Language,Humanities,27,98875,3662,21.5744
+3019,`Abdu'l-Bahá,Male,1844,1921,Tehran,,Iran,Asia,35.69611,51.42306,Religious Figure,Religion,Institutions,28,472029,16858,21.5729
+83688,Beyoncé,Female,1981,2020,Houston,TX,United States,North America,29.76278,-95.38306,Singer,Music,Arts,86,53049791,616858,20.9905
+53736,Hayden Christensen,Male,1981,2020,Vancouver,,Canada,North America,49.25,-123.1,Actor,Film And Theatre,Arts,38,14722691,387439,19.5871
+19065069,Boris Johnson,Male,1964,2020,New York,NY,United States,North America,40.7127,-74.0059,Politician,Government,Institutions,45,4484694,99660,18.2924
+5962511,Kim Jong-un,Male,1983,2020,Pyongyang,,North Korea,Asia,39.01944,125.73806,Politician,Government,Institutions,70,14501187,207160,17.9738
+167378,Venus Williams,Female,1980,2020,Los Angeles,CA,United States,North America,33.92472,-118.20194,Tennis Player,Individual Sports,Sports,61,9406611,154207,17.9734
+3683358,Yiruma,Male,1978,2020,Seoul,,South Korea,Asia,37.56667,126.96667,Musician,Music,Arts,26,3660508,140789,17.6388
+,John Williams,Male,1932,2020,New York,NY,United States,North America,,,Composer,Music,Arts,,,,
+,Alfred Hitchcock,Male,1899,1980,London,,United Kingdom,Europe,,,Film Director,Film And Theatre,Arts,,,,20455,
+Michael Jordan,Male,1963,2020,New York,NY,United States,North America,40.69278,-73.99028,Basketball Player,Team Sports,Sports,75,49879093,665055,23.6198
+38459,Natalie Portman,Female,1981,2020,Jerusalem,,Israel,Asia,31.78333,35.21667,Actor,Film And Theatre,Arts,78,45549617,583969,20.6133
+43356,Tiger Woods,Male,1975,2020,Los Angeles,CA,United States,North America,33.81833,-118.03917,Golfer,Individual Sports,Sports,56,20276204,362075,18.7543
+4848272,Donald Trump,Male,1946,2020,New York,NY,United States,North America,40.75,-73.86667,Businessperson,Business,Business & Law,52,18473809,355266,24.128
+20455,Michael Jordan,Male,1963,2020,New York,NY,United States,North America,40.69278,-73.99028,Basketball Player,Team Sports,Sports,75,49879093,665055,23.6198
+19903,Marlon Brando,Male,1924,2004,Omaha,NE,United States,North America,41.25,-96,Actor,Film And Theatre,Arts,100,25201124,252011,27.4523
+38172,Igor Stravinsky,Male,1882,1971,Lomonosov,,Russia,Europe,59.91667,29.76667,Composer,Music,Arts,88,10212624,116053,24.5543
+53360,Cole Porter,Male,1891,1964,Peru,IN,United States,North America,40.75778,-86.06778,Composer,Music,Arts,35,4043755,115536,23.5143
+64673,Bruce Willis,Male,1955,2020,Idar-Oberstein,,Germany,Europe,49.71139,7.31306,Actor,Film And Theatre,Arts,72,37426877,519818,25.1361
+11181,Frank Sinatra,Male,1915,1998,Hoboken,NJ,United States,North America,40.75,-74.03,Singer,Music,Arts,74,27388225,370111,27.1731
+18938156,J. D. Salinger,Male,1919,2010,New York,NY,United States,North America,40.7127,-74.0059,Writer,Language,Humanities,64,9153233,143019,24.0404
+8955445,O. J. Simpson,Male,1947,2020,San Francisco-Bay Area,CA,United States,North America,37.78333,-122.41667,American Football Player,Team Sports,Sports,29,14749449,508602,23.2069
+22468,Osama bin Laden,Male,1957,2011,Riyadh,,Saudi Arabia,Asia,24.63333,46.71667,Extremist,Outlaws,Public Figure,123,45515336,370043,23.4496
+43927,Billy Joel,Male,1949,2020,New York,NY,United States,North America,40.8373,-73.886,Singer,Music,Arts,37,11157591,301557,23.8659
+8618,David Beckham,Male,1975,2020,Leytonstone,,United Kingdom,Europe,51.569,0.01,Soccer Player,Team Sports,Sports,81,36709829,453208,22.042
+4764846,Usain Bolt,Male,1986,2020,Sherwood Content,,Jamaica,North America,18.39056,-77.63028,Athlete,Individual Sports,Sports,85,27968614,329043,18.5226
+20395872,Oprah Winfrey,Female,1954,2020,Kosciusko,MS,United States,North America,33.05806,-89.58833,Presenter,Media Personality,Public Figure,58,21685613,373890,23.2935
+22196,Orson Welles,Male,1915,1985,Kenosha,WI,United States,North America,42.58222,-87.84556,Actor,Film And Theatre,Arts,66,12833460,194446,26.2388
+58719,Judy Garland,Female,1922,1969,Grand Rapids,MN,United States,North America,47.23722,-93.53028,Actor,Film And Theatre,Arts,90,16832790,187031,25.539
+864,Andy Warhol,Male,1928,1987,Pittsburgh,PA,United States,North America,40.43972,-79.97639,Artist,Fine Arts,Arts,100,34354584,343546,27.9198
+19831,Margaret Thatcher,Female,1925,2013,Grantham,,United Kingdom,Europe,52.918,-0.638,Politician,Government,Institutions,96,37450537,390110,25.9162
+523032,Kanye West,Male,1977,2020,Atlanta,GA,United States,North America,33.755,-84.39,Singer,Music,Arts,54,41382483,766342,19.8667
+142056,Madonna,Female,1958,2020,Bay City,MI,United States,North America,43.59505,-83.88864,Musician,Music,Arts,94,19996250,212726,24.6735
+262376,Roger Federer,Male,1981,2020,Basel,,Switzerland,Europe,47.56667,7.6,Tennis Player,Individual Sports,Sports,101,36800261,364359,20.4921
+19318,Marilyn Monroe,Female,1926,1962,Los Angeles,CA,United States,North America,34.05,-118.25,Actor,Film And Theatre,Arts,143,63671491,445255,28.3466
+4173,Babe Ruth,Male,1895,1948,Baltimore,MD,United States,North America,,,Baseball Player,Team Sports,Sports,36,12406918,344637,23.9947
+14045,Humphrey Bogart,Male,1899,1957,New York,NY,United States,North America,40.7127,-74.0059,Actor,Film And Theatre,Arts,70,11396025,162800,25.9566
+13459,H. G. Wells,Male,1866,1946,Bromley,,United Kingdom,Europe,51.407,0.021,Writer,Language,Humanities,71,9891390,139315,24.6224
+10489,Edwin Hubble,Male,1889,1953,Marshfield,MO,United States,North America,37.33972,-92.90722,Astronomer,Natural Sciences,Science & Technology,73,3294701,45133,25.5642
+82981,Charles Lindbergh,Male,1902,1974,Detroit,MI,United States,North America,42.33139,-83.04583,Pilot,Military,Institutions,56,8582280,153255,25.0366
+73572,Edmund Hillary,Male,1919,2008,Auckland,,New Zealand,Oceania,-36.84056,174.74,Mountaineer,Individual Sports,Sports,96,5108436,53213,24.6151
+6824,Carl Sagan,Male,1934,1996,New York,NY,United States,North America,40.69278,-73.99028,Astronomer,Natural Sciences,Science & Technology,63,12577599,199644,25.1279
+2017814,Xi Jinping,Male,1953,2020,Beijing,,China,Asia,39.91667,116.38333,Politician,Government,Institutions,55,6141586,111665,22.2865
+7412236,Steve Jobs,Male,1955,2011,San Francisco-Bay Area,CA,United States,North America,37.78333,-122.41667,Designer,Design,Arts,122,78372660,642399,24.4062
+33983258,Malala Yousafzai,Female,1998,2020,Mingora,,Pakistan,Asia,34.78333,72.36667,Social Activist,Activism,Public Figure,41,4667416,113839,12.1429
+20076,"Martin Luther King, Jr.",Male,1929,1968,Atlanta,GA,United States,North America,33.755,-84.39,Social Activist,Activism,Public Figure,116,28854653,248747,28.6877
+37243,Harriet Tubman,Female,1820,1913,Dorchester County,MD,United States,North America,38.42,-76.08,Writer,Language,Humanities,52,7795284,149909,22.2011
+85234,Amelia Earhart,Female,1897,1939,Atchison,KS,United States,North America,39.5625,-95.12833,Pilot,Military,Institutions,62,20456548,329944,24.2421
+5792809,Angelina Jolie,Female,1975,2020,Los Angeles,CA,United States,North America,34.05,-118.25,Actor,Film And Theatre,Arts,91,68213700,749601,23.0784
+72671,Angela Merkel,Female,1954,2020,Hamburg,,Germany,Europe,53.56528,10.00139,Politician,Government,Institutions,112,18136237,161931,25.4218
+47923,Queen Victoria,Female,1819,1901,London,,United Kingdom,Europe,51.50528,-0.18833,Politician,Government,Institutions,94,20003299,212801,25.8763
+265949,Qianlong Emperor,Male,1711,1799,Beijing,,China,Asia,39.91667,116.38333,Politician,Government,Institutions,33,3169667,96051,24.9384
+16094,Joseph Haydn,Male,1732,1809,Rohrau,,Austria,Europe,48.06667,16.85,Composer,Music,Arts,83,11122433,134005,28.0808
+23860776,Maximilien Robespierre,Male,1758,1794,Arras,,France,Europe,50.2897,2.7808,Politician,Government,Institutions,67,7014504,104694,27.1949
+17914,Ludwig van Beethoven,Male,1770,1827,Bonn,,Germany,Europe,50.73399,7.09981,Composer,Music,Arts,153,48132344,314590,30.1093
+12775,George Frideric Handel,Male,1685,1759,Halle,,Germany,Europe,51.48333,11.96667,Composer,Music,Arts,93,10717383,115241,28.2857
+36858805,Edmond Halley,Male,1656,1742,Haggerston,,United Kingdom,Europe,51.53463,-0.07663,Astronomer,Natural Sciences,Science & Technology,66,1550830,23497,24.1486
+1425,Antonio Vivaldi,Male,1678,1741,Venice,,Italy,Europe,45.4375,12.33583,Composer,Music,Arts,103,15870117,154079,27.8898
+31183,Tokugawa Ieyasu,Male,1543,1616,Okazaki,,Japan,Asia,34.95,137.16667,Military Personnel,Military,Institutions,48,10787849,224747,27.1452
+29305,Sojourner Truth,Female,1797,1883,Rifton,NY,United States,North America,41.83333,-74.04222,Social Activist,Activism,Public Figure,44,2794358,63508,21.0849
