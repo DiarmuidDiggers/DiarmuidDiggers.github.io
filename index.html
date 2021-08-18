@@ -1,0 +1,691 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Horizontal History</title>
+    <script src="papaparse.js" id="papaScriptElement"></script>
+
+    <!--<style>
+        :root {
+	/* Base font size */
+	font-size: 10px;
+
+	/* Heading height variable*/
+	--heading-height: 20em;
+}
+
+        header {
+	position: fixed;
+	width: 100%;
+	height: var(--heading-height);
+}
+
+/* Create angled background with 'before' pseudo-element */
+header::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 6em;
+	width: 100%;
+	height: calc(var(--heading-height) + 10em);
+	z-index: -1;
+	transform: skewY(-3.5deg);
+	background: 
+		linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+		url(https://images.unsplash.com/photo-1495464101292-552d0b52fe41?auto=format&fit=crop&w=1350&q=80) no-repeat center,
+		linear-gradient(#4e4376, #2b5876);
+	background-size: cover;
+	border-bottom: .2em solid #fff;
+}
+
+h1 {
+	font-size: calc(2.8em + 2.6vw);
+	font-weight: 700;
+	letter-spacing: .01em;
+	padding: 10rem 0 0 4.5rem;
+	text-shadow: .022em .022em .022em #111;
+	color: #fff;
+}
+
+
+    </style>-->
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
+    <style>
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 150px;
+        font-weight: 50;
+        position:absolute;
+        top: 10%;
+      }
+
+      button.sticky {
+        
+        position: fixed;
+        left: 20px;
+        top: 20px;
+        height: 20px;
+        width: 140px;
+        font-weight: 450;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        background-color: whitesmoke;
+        z-index: 1;
+        }
+
+      .modal {
+          display: none;
+          position:fixed;
+          z-index: 1;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          overflow: auto;
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4);
+      }
+
+      .modal-content {
+        background-color: #fefefe;
+        margin: 3% auto; /* 15% from the top and centered */
+        padding: 20px;
+        width: 90%;
+        height: fit-content;
+
+        font-weight: 500;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+
+      }
+
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- I would like to get it sliding out across the top then to open down, but that's going to be a mess of different elements and animations. Get thi go for now. -->
+    <!-- Ooh! I like scrolling across from the home screen to the middle of the bars, not the top -->
+    <!-- Good idea: disable vertical scroll on the home screen until the viewport is on the bars -->
+    <!-- Sticky is working, but with a catch. Figure it out -->
+    <button style="left:5%" class="sticky" id="openControlPanelModal">Open Control Panel</button>
+
+    <div id="controlPanelModal" class="modal">
+    <div class="modal-content" id="filterInput" onchange="showDifferentCategories()">
+        <span class="close">&times;</span>
+        <div style="font-size: 13px; font-weight: 550; width:110px; height: 20px; text-align: center; line-height: 20px; border: 2px solid black; background-color: darkorange;">Filter By: </div>
+        </br>
+        <input type="checkbox" id="Government">Show Rulers & Politicians</input></br>
+        <input type="checkbox" id="Religion">Show Religious Figures</input></br>
+        <input type="checkbox" id="Explorers">Show Explorers</input></br>
+        <input type="checkbox" id="Social Sciences">Show Social Sciences</input></br>
+        <input type="checkbox" id="Philosophy">Show Philosophers</input></br>
+        <input type="checkbox" id="Arts">Show Artists</input></br>
+        <input type="checkbox" id="Language">Show Writers</input></br>
+        <input type="checkbox" id="Music">Show Musicians</input></br>
+        <input type="checkbox" id="Team Sports">Show Sportspeople</input></br>
+        <input type="checkbox" id="Military">Show Military Figures</input></br>
+        <input type="checkbox" id="Invention">Show Inventors</input></br>
+        <input type="checkbox" id="showAcademicsBox">Show Academics</input></br>
+        <input type="checkbox" id="Activism">Show Cultural Leaders</input></br>
+        <input type="checkbox" id="Outlaws">Show Outlaws</input>
+        <!-- Have it so that only one of mutually exclusive conditions, like Male & Female, can be clicked at once. -->
+        </br>
+        </br>
+        <div style="height:0; border: 1px dashed grey; width: 100px"></div>
+        </br>
+        <input type="checkbox" id="Female">Show Only Women</input></br>
+        <input type="checkbox" id="Male">Show Only Men</input>
+        </br>
+        </br>
+        <div style="height:0; border: 1px dashed grey; width: 100px"></div>
+        </br>
+        <input type="checkbox" id="Europe">Show Europe</input></br>
+        <input type="checkbox" id="Africa">Show Africa</input></br>
+        <input type="checkbox" id="Asia">Show Asia</input></br>
+        <input type="checkbox" id="North America">Show North America</input></br>
+        <input type="checkbox" id="South America">Show South America</input>
+        </br>
+        </br>
+        <div style="height:0; border: 1px dashed grey; width: 100px"></div>
+        </br>
+        <input type="range" id="filterByFameRange" min="15" max="35"></input>
+    </div>
+    </div>
+
+    <header>
+        <h1>Horizontal </br> <strong>History</strong></h1>
+    </header>
+   <!-- <label for="search">Search for a Person</label>
+    <input type="search" id="searchInput" onsearch="searchForBar()"></input>-->
+<div id="canvasDiv">
+    <!--<canvas id="canvas" width="11100" height="1400" style="background-color: whitesmoke;"></canvas>
+    <input type="file" id="fileInput"></input>-->
+    <!--<input type="button" id="readCSVButton" position="relative" top="400px" onclick="buttonClickedParse()">Read CSV</input>-->
+</div>
+<div id=divDiv width="11100px" position="relative"></div>
+
+
+    
+    <script id="CSVAccessAndParseScript">
+        
+        let occupationsInEachCategory = {
+            politics: ["Politician", "Diplomat", "Public Worker", "Companion", "Nobleman"],
+            religion: ["Religious Figure"],
+            explorationAndOutdoors: ["Explorer", "Astronaut", "Mountaineer"],
+            science: ["Mathematician", "Physicist", "Astronomer", "Physician", "Psychologist", "Biologist", "Chemist", "Geographer", "Engineer", "Computer Scientist"],
+            economicsAndBusiness: ["Economist", "Businessperson"],
+            philosophy: ["Philosopher"],
+            art: ["Painter", "Architect", "Sculptor", "Artist"],
+            writing: ["Writer", "Comic Artist"],
+            music: ["Musician", "Composer", "Singer"],
+            entertainment: ["Actor", "Film Director", "Presenter", "Producer"],
+            sports: ["Soccer Player", "Boxer", "Tennis Player", "Golf Player", "Basketball Player"],
+            military: ["Military Personnel"],
+            invention: ["Inventor"],
+            academia: ["Linguist", "Historian"],
+            culturalLeaders: ["Social Activist"],
+            outlaws: ["Extremist", "Pirate", "Mafioso"]
+        }
+
+
+
+
+     /*   let canvas = document.getElementById("canvas");
+        let ctx = canvas.getContext("2d");
+        ctx.alpha = false;
+        //ctx.fillStyle = "red";
+        //ctx.fillRect(80, 50, 80, 20);
+        //ctx.fillStyle = "blue"
+        ctx.font = "10px Arial"
+        //ctx.fillText("Magic Johnson", 85, 63); */
+
+        function convertYearToPixel(person) {
+            //This can actually be simplified to just 2020 - person["birth_year"],
+            //but I don't want to have to test that for now
+            if (person["birth_year"] >= 0) {
+                person["birth_year"] = 2020 - person["birth_year"];
+            }
+            else {
+                person["birth_year"] = 2020 - person["birth_year"];
+            }
+
+            if (person["death_year"] < 0) {
+                person["death_year"] = 2020 - person["death_year"];
+            }
+            else {
+                person["death_year"] = 2020 - person["death_year"];
+            }
+        }
+
+        function findBarLength(person) {
+            return person["death_year"] - person["birth_year"];
+        }
+
+        function findBarLengthForDivs(person) {
+            return person["birth_year"] - person["death_year"];
+        }
+        
+        let arrayOfDivs = [];
+        function drawAllRows(masterArray) {
+            arrayOfDivs = [];
+            for (let i = 0; i < masterArray.length; i++) {
+                for (let j = 0; j < masterArray[i].length; j++) {
+                    
+                    convertYearToPixel(masterArray[i][j]);
+
+                    let newDivToBeAdded = document.createElement("DIV");
+                    newDivToBeAdded.innerHTML = masterArray[i][j]["full_name"];
+                    newDivToBeAdded.style.fontSize = "13px";
+                    newDivToBeAdded.style.fontWeight = "550";
+                    newDivToBeAdded.style.textAlign = "center";
+                    newDivToBeAdded.style.lineHeight = "20px";
+                    newDivToBeAdded.style.overflow = "auto";
+                    newDivToBeAdded.style.fontFamily = "Arial, Helvetica";
+                    newDivToBeAdded.id = masterArray[i][j]["full_name"];
+                    newDivToBeAdded.style.border = "2px solid black";
+                    newDivToBeAdded.style.width = findBarLengthForDivs(masterArray[i][j]) * 2 + "px";
+                    newDivToBeAdded.style.height = "20px";
+                    newDivToBeAdded.style.position = "absolute";
+                    newDivToBeAdded.style.left = 1300 + masterArray[i][j]["death_year"] * 2 + "px";
+                    newDivToBeAdded.style.top = 70 + i * 23 + "px";
+                    newDivToBeAdded.style.backgroundColor = setFillStyle(masterArray[i][j]["occupation"]);
+
+                    arrayOfDivs.push(newDivToBeAdded);
+                    document.getElementById("divDiv").appendChild(newDivToBeAdded);
+
+
+                    /*ctx.fillStyle = setFillStyle(masterArray[i][j]["occupation"]);
+                    ctx.strokeStyle = "black";
+                    
+                    
+                    ctx.fillRect(masterArray[i][j]["birth_year"] * 2, i * 20, findBarLength(masterArray[i][j]) * 2, 20);
+                    ctx.strokeRect(masterArray[i][j]["birth_year"] * 2, i * 20, findBarLength(masterArray[i][j]) * 2, 20);
+                    ctx.strokeText(masterArray[i][j]["full_name"], masterArray[i][j]["death_year"]  * 2 + 3, i * 20 + 13);//, findBarLength(masterArray[i][j]));
+                    //ctx.fillText(masterArray[i][j]["full_name"], masterArray[i][j]["death_year"], i * 20 + 13);//, findBarLength(masterArray[i][j])); */
+                }
+            }
+        }
+
+        function setFillStyle(personType) {
+            let answer;
+            switch(personType) {
+                case "Diplomat": case "Public Worker": case "Politician": case "Companion": case "Nobleman":
+                    answer = "aqua";
+                    break;
+                case "Religious Figure":
+                    answer = "navy";
+                    break;
+                case "Explorer": case "Astronaut": case "Mountaineer":
+                    answer = "dodgerblue";
+                    break;
+                case "Mathematician": case "Physicist": case "Astronomer": case "Physician": case "Psychologist": case "Biologist": case "Chemist": case "Geographer": case "Engineer": case "Computer Scientist":
+                    answer = "lime";
+                    break;
+                case "Economist": case "Businessperson":
+                    answer = "green";
+                    break;
+                case "Philosopher":
+                    answer = "Purple";
+                    break;
+                case "Painter": case "Architect": case "Sculptor": case "Artist":
+                    answer = "fuchsia";
+                    break;
+                case "Writer": case "Comic Artist":
+                    answer = "red";
+                    break;
+                case "Composer": case "Musician": case "Singer":
+                    answer = "darkorange";
+                    break;
+                case "Actor": case "Film Director": case "Presenter": case "Producer":
+                    answer = "yellow";
+                    break;
+                case "Soccer Player": case "Boxer": case "Tennis Player":
+                    answer = "saddlebrown";
+                    break;
+                case "Military Personnel":
+                    answer = "darkslategrey";
+                    break;
+                case "Inventor":
+                    answer = "Aquamarine";
+                    break;
+                case "Historian": case "Linguist":
+                    answer = "blueviolet";
+                    break;
+                case "Social Activist":
+                    answer = "coral";
+                    break;
+                case "Extremist": case "Pirate": case "Mafioso":
+                    answer = "Gray";
+                    break;
+                default:
+                    answer = "white";
+            }
+            return answer;
+        }
+
+
+
+
+
+
+        let readCSVButton = document.getElementById("readCSVButton");
+
+        let papaParseResultsData;
+
+        function buttonClickedParse() {
+            Papa.parse("MITDatabaseCulledWithDeathsCSV.csv", {
+                complete: function(results) {
+                    //console.log(results);
+                    papaParseResultsData = results.data;
+                    //console.log(papaParseResultsData);
+                    addPeopleToMasterArray();
+                },
+                download: true,
+                header: true,
+                dynamicTyping: true
+            });
+        }
+
+
+
+
+        let arrayOfCanvasRows = []; //Master array to hold an array for each row
+        
+
+        function addFirstPersonToMasterArrayRow() {
+            for (let i = 0; i <= papaParseResultsData.length; i++) {
+                let randomNum = Math.floor(Math.random() * papaParseResultsData.length);
+                                            //Sub-array inside arrayOfCanvasRows
+                                            //to hold the objects making up row
+                                            //one in order
+                if (papaParseResultsData[randomNum]["birth_year"] > 1930) {
+                    let newCanvasRow = [];        
+                    newCanvasRow.push(papaParseResultsData[randomNum]);
+                    papaParseResultsData.splice(randomNum, 1);
+                    arrayOfCanvasRows.push(newCanvasRow);
+                    break;
+                }
+            }
+        }
+
+
+
+
+//This works well for now, so don't go messing with it yet, but
+//there might be a way to do it with .sort() that could be better
+        function addNextPersonToMasterArray() {
+            
+            for(let i = 1; i <= 537; i++) {     //Convert to a do ... while (papsparseresults.length > 0).
+                                                //As it is, every time a new row is created is counted towards
+                                                //the 537, meaning not everyone in the results array is pushed
+                                                //to the masterArray
+
+                                                //Nope, that's not it. The problem (or A problem, at least) is
+                                                //that there's noone left in the results array born after the
+                                                //cutoff for the first person in a new row.
+                let nextPerson = findRowWithLeastLoss();
+                if (nextPerson["full_name"] == "Buffer Row at Top") {
+                    addFirstPersonToMasterArrayRow();
+                }
+                else {
+                    arrayOfCanvasRows[arrayOfCanvasRows.length - 1].push(nextPerson);
+                }
+                
+            }
+        }
+
+
+
+
+//Woohoo! The logic below is working - it picks a random person in the csv,
+//adds them to the master array and finds the person with the least loss,
+//adding them to the master array, as well.
+        function findRowWithLeastLoss() {
+            let currentLastPersonInMasterArray = arrayOfCanvasRows[arrayOfCanvasRows.length - 1][arrayOfCanvasRows[arrayOfCanvasRows.length - 1].length - 1];
+            let currentPersonLeastLoss = papaParseResultsData[0];
+            for (let i = 1; i < papaParseResultsData.length; i++) {
+                if (currentLastPersonInMasterArray["birth_year"] - 10 - currentPersonLeastLoss["death_year"] > currentLastPersonInMasterArray["birth_year"] - 10 - papaParseResultsData[i]["death_year"] 
+                && currentLastPersonInMasterArray["birth_year"] - 10 - papaParseResultsData[i]["death_year"] > 0) {
+                    
+                    currentPersonLeastLoss = papaParseResultsData[i];
+                }
+            }
+            if (currentPersonLeastLoss !== papaParseResultsData[0]) {
+                papaParseResultsData.splice(papaParseResultsData.findIndex(element => element["full_name"] === currentPersonLeastLoss["full_name"]), 1);
+            }
+            return currentPersonLeastLoss;
+        }
+
+
+        //The filter is working, but not fully implemented.
+        //I'd like to be able to have as many of one filter type applied at a time as you like
+        //(explorers and politicians and artists, Europeans and Africans and Asians, etc.)
+        //without affecting eachother, but for different filter types to apply to eachother
+        //(Female is checked => female explorers and female politicians).
+        //No point fully implementing this until I get tags up and running, when there'll be proper
+        //options and this will really make a difference.
+        function checkRowForFilterConditions(row, filterConditions) {
+            for (let i = 0; i < filterConditions.length; i++) {
+                if (Object.values(row).includes(filterConditions[i]) == false) {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        function filterPapaparseResults() {
+            let inputDiv = document.getElementById("filterInput");
+            let filterConditions = [[""], [""], [""]];
+                                //0 = Category
+                                //1 = Gender
+                                //2 = Continent
+            for (let i = 0; i <= 35; i++) {
+                if (inputDiv.children[i].type == "checkbox" &&  inputDiv.children[i].checked) {
+                   //The different statements aren't working. They work, but only as much as one would, they don't seperate them into sub-arrays
+                   if (i < 29) {
+                        filterConditions[0].push(inputDiv.children[i].id);
+                   }
+                   else if (i >= 29 && i <= 30) {
+                        filterConditions[1].push(inputDiv.children[i].id);
+                   }
+                   else if (i >= 31) {
+                        filterConditions[2].push(inputDiv.children[i].id);
+                   }
+                }
+            }
+            console.log(filterConditions);
+
+
+            if (filterConditions.length > 0) {
+                for (let i = 0; i <= papaParseResultsData.length; i++) {
+                    if (checkRowForFilterConditions(papaParseResultsData[i], filterConditions) == false) {
+                        papaParseResultsData.splice(i, 1);
+                    }
+                }
+            }
+            /*else {
+                drawFilteredRows(arrayOfCanvasRows, filterConditions);
+            }*/   
+        }
+
+
+        function addPeopleToMasterArray() {
+            clearAllBars();
+           // filterPapaparseResults();
+            addFirstPersonToMasterArrayRow();
+            addNextPersonToMasterArray();
+            //console.log(arrayOfCanvasRows);
+            console.log(papaParseResultsData);
+            drawRows(arrayOfCanvasRows);
+            drawYearGuidelines();
+        }
+
+        function drawRows(masterArray) {
+            let inputDiv = document.getElementById("filterInput");
+            let filterConditions = [];
+
+            for (let i = 0; i <= 49; i++) {
+                if (inputDiv.children[i].type == "checkbox" &&  inputDiv.children[i].checked) {
+                   filterConditions.push(inputDiv.children[i].id);
+                }
+            }
+            console.log(filterConditions);
+
+            if (filterConditions.length == 0) {
+                drawAllRows(arrayOfCanvasRows);
+            }
+            else {
+                drawFilteredRows(arrayOfCanvasRows, filterConditions);
+            }
+        }
+
+        function clearAllBars() {
+            arrayOfCanvasRows = [];
+            let divDiv = document.getElementById("divDiv");
+            divDiv.innerHTML = "";
+        }
+
+
+//Stop fucking around with client blah and offset wimble, do what you're good at -
+//bodging over complicated solutions together! Feed in the master array here and set
+//line height to 23 * masterArray.length. Find the longest sub-array and the last date
+//of birth in it (might not work), then set that as the length to loop through
+
+//Scratch that, in the drawRows functions, if i % 10 == 0, draw one of these
+
+//drawRows, every time masterArray[i]
+        function drawYearGuidelines() {
+            let divDiv = document.getElementById("divDiv");
+            
+            //Probably set it up so that it doesn't keep going after no more bars,
+            //although it might actually be cool to see all the history before a 
+            //given group.
+            for (let i = 40; i < 11100; i += 200) {
+                let newDivLine = document.createElement("DIV");
+                
+                newDivLine.style.width = "0px";
+                newDivLine.style.height =  18 + arrayOfCanvasRows.length * 23 + "px";//divDiv.style.height;
+                newDivLine.style.border = "1px dashed grey";
+
+                newDivLine.style.position = "absolute";
+                newDivLine.style.left = 1300 + i + "px";
+                newDivLine.style.top = "52px";
+                newDivLine.style.zIndex = "-1";
+                
+                divDiv.appendChild(newDivLine);
+
+                let yearText = document.createElement("H5");
+                yearText.innerHTML = 2020 - i/2;
+
+                yearText.style.position = "absolute";
+                yearText.style.left = 1304 + i + "px";
+                yearText.style.top = "30px";                
+
+                //Not a fan of this font, I think the default might even be better
+                yearText.style.fontFamily = "Arial, Helvetica";
+
+                divDiv.appendChild(yearText);
+            }
+        }
+
+        
+//As it is, more than one filter type can be applied at once (Asia & women & goverment, etc.)
+//but more than one from the same type can't be applied (no government and explorers or Asia and Europe), so fix that
+//Different colours by occupation while filtered, clean up what filter conditions apply to which categories
+//Add year, fame, place, conditions
+//Fix to have filtered rows appear beside each other, not
+//where the would be as if all others were invisible.
+//(That might be a different solution, just make divs that
+//don't match invisible. I don't think it would be the best
+//solution, but it is ONE).
+        function drawFilteredRows(masterArray, filterConditions) {
+            console.log("Filtered rows function running");
+            arrayOfDivs = [];
+            for (let i = 0; i < masterArray.length; i++) {
+                for (let j = 0; j < masterArray[i].length; j++) {
+                    if (checkRowForFilterConditions(masterArray[i][j], filterConditions)) {//Object.values(masterArray[i][j]).includes(filterConditions)) {
+
+                        convertYearToPixel(masterArray[i][j]);
+
+                        let newDivToBeAdded = document.createElement("DIV");
+                        newDivToBeAdded.innerHTML = masterArray[i][j]["full_name"];
+                        newDivToBeAdded.style.fontSize = "13px";
+                        newDivToBeAdded.style.fontWeight = "550";
+                        newDivToBeAdded.style.textAlign = "center";
+                        newDivToBeAdded.style.lineHeight = "20px";
+                        newDivToBeAdded.style.overflow = "auto";
+                        newDivToBeAdded.style.fontFamily = "Arial, Helvetica";
+                        newDivToBeAdded.id = masterArray[i][j]["full_name"];
+                        newDivToBeAdded.style.border = "2px solid black";
+                        newDivToBeAdded.style.width = findBarLengthForDivs(masterArray[i][j]) * 2 + "px";
+                        newDivToBeAdded.style.height = "20px";
+                        newDivToBeAdded.style.position = "absolute";
+                        newDivToBeAdded.style.left = 1300 + masterArray[i][j]["death_year"] * 2 + "px";
+                        newDivToBeAdded.style.top = 70 + i * 23 + "px";
+                        newDivToBeAdded.style.backgroundColor = setFillStyle(masterArray[i][j]["occupation"]);
+
+                        arrayOfDivs.push(newDivToBeAdded);
+                        document.getElementById("divDiv").appendChild(newDivToBeAdded);
+
+
+//Possibility for getting the divs to display without gaps when filtered.
+//Comment out the newDiv.top = up in the instantiation block then uncomment this.
+                       /* arrayOfDivs.forEach(div => {
+                            if (div.style.top <= /*
+Possible pseudo code:   Do while overlaps
+                            let l = 0
+                            //if div.top overlaps with another.bottom
+                            l++
+                            div.top = 23 * l
+
+
+
+                            )
+                        })
+
+                        /*ctx.fillStyle = setFillStyle(masterArray[i][j]["occupation"]);
+                        ctx.strokeStyle = "black";
+                    
+                    
+                        ctx.fillRect(masterArray[i][j]["birth_year"] * 2, i * 20, findBarLength(masterArray[i][j]) * 2, 20);
+                        ctx.strokeRect(masterArray[i][j]["birth_year"] * 2, i * 20, findBarLength(masterArray[i][j]) * 2, 20);
+                        ctx.strokeText(masterArray[i][j]["full_name"], masterArray[i][j]["death_year"]  * 2 + 3, i * 20 + 13);//, findBarLength(masterArray[i][j]));
+                        //ctx.fillText(masterArray[i][j]["full_name"], masterArray[i][j]["death_year"], i * 20 + 13);//, findBarLength(masterArray[i][j])); */
+                    }
+                }
+            }
+        }
+
+        function showDifferentCategories() {
+            clearAllBars();
+            buttonClickedParse();
+
+            /*let inputDiv = document.getElementById("filterInput");
+            let filterConditions = [];
+
+            for (let i = 0; i <= 28; i++) {
+                //console.log(inputDiv.children[i].type);
+                if (inputDiv.children[i].type == "checkbox" &&  inputDiv.children[i].checked) {
+                   filterConditions.push(inputDiv.children[i].id);
+                }
+            }
+            console.log(filterConditions);
+
+            if (filterConditions.length == 0) {
+                drawAllRows(arrayOfCanvasRows);
+            }
+            else {
+                drawFilteredRows(arrayOfCanvasRows, filterConditions);
+            }*/
+        }
+
+        function setUpControlPanelModal() {
+            let modal = document.getElementById("controlPanelModal");
+
+            // Get the button that opens the modal
+            let btn = document.getElementById("openControlPanelModal");
+
+            // Get the <span> element that closes the modal
+            let span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on the button, open the modal 
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        }
+
+        setUpControlPanelModal();
+
+        buttonClickedParse();
+    </script>
+</body>
+</html>
